@@ -5,7 +5,7 @@ Updated 2026-10-13T13:36:59.306Z. **Requested formal-domain engineering launch: 
 | Milestone | Status | Evidence |
 |---|---|---|
 | GitHub push | COMPLETED | https://github.com/jjasnek-ops/enfosi-guide-wiki; main |
-| Pages deployment | COMPLETED | Initial release1667a6b09ac2945078ceb1178b1cd7579df638ef, deployment d8ae4560-ea44-40b3-9172-411841e2c7cf. Later final receipt exported to production-deployment.json |
+| Pages deployment | COMPLETED | Final release991c8f8efdfbcf985813cac8d95f78350175f54d, deployment7e270e37-1e5c-4822-b552-bb33622aa167; actual apex marker verified. See production-deployment.json |
 | Formal domain active | COMPLETED | Pages UI Active / SSL enabled; https://enfosiguide.wiki |
 | HTTPS/correct source/core paths | COMPLETED |24 live routes all expected status; actual deploy marker verified; no TLS bypass |
 | DNSSEC restored | COMPLETED | Public NS/DS/A/TXT all AD:true; key tag2371/algorithm13/digestType2; exact digest cloudflare-ds-record.json |
@@ -22,3 +22,5 @@ Updated 2026-10-13T13:36:59.306Z. **Requested formal-domain engineering launch: 
 Migration sequence: explicit human authorization → temporary Spaceship DNSSEC disable/oldDS removal → preserve TXT on Cloudflare → assigned nameserver switch → replace only two known parking A records with Pages CNAME → enable Cloudflare DNSSEC → publish its exact new DS at Spaceship → public validation AD:true → Pages binding/Active SSL → live/site/Google/GA checks. Historical failed/propagating snapshots remain for provenance, not current status.
 
 No unrelated DNS records/domains were changed. No www alias was enabled. Canonical host is apex. No actual reminders were created. CI passed the original application release; subsequent receipt/CI information is separately recorded. IndexNow guard enabled only after real apex/source verification.
+
+Final release CI38406769032 success; IndexNow38406900896 accepted28 URLs with HTTP202. This is not evidence of Google indexing. Audit-only commits can follow without changing deployed app source.

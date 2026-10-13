@@ -4,7 +4,7 @@
 
 **A. 项目**
 
-正式域名 https://enfosiguide.wiki 已接通且 HTTPS 有效。可用站点 https://enfosi-guide-wiki.pages.dev；GitHub https://github.com/jjasnek-ops/enfosi-guide-wiki。部署代码 SHA：1667a6b09ac2945078ceb1178b1cd7579df638ef；Cloudflare 生产部署 ID：d8ae4560-ea44-40b3-9172-411841e2c7cf。AnvilWiki v2.37.0 / d4fce654128ce75a8355291ebf792584026de2b7，MIT 保留；Astro/MDX/Pagefind 静态产物，CLI direct upload。随后提交的验收报告与实际部署代码 SHA 分开记录。
+正式域名 https://enfosiguide.wiki 已接通且 HTTPS 有效。可用站点 https://enfosi-guide-wiki.pages.dev；GitHub https://github.com/jjasnek-ops/enfosi-guide-wiki。部署代码 SHA：991c8f8efdfbcf985813cac8d95f78350175f54d；Cloudflare 生产部署 ID：7e270e37-1e5c-4822-b552-bb33622aa167。AnvilWiki v2.37.0 / d4fce654128ce75a8355291ebf792584026de2b7，MIT 保留；Astro/MDX/Pagefind 静态产物，CLI direct upload。随后提交的验收报告与实际部署代码 SHA 分开记录。
 
 **B. SEO**
 

@@ -1,0 +1,24 @@
+{
+  "domain": "https://enfosiguide.wiki",
+  "pagesProject": "enfosi-guide-wiki",
+  "branch": "main",
+  "deploymentId": "7e270e37-1e5c-4822-b552-bb33622aa167",
+  "deploymentUrl": "https://7e270e37.enfosi-guide-wiki.pages.dev",
+  "stablePagesUrl": "https://enfosi-guide-wiki.pages.dev",
+  "sourceSha": "991c8f8efdfbcf985813cac8d95f78350175f54d",
+  "publicMarkerVerified": true,
+  "githubCi": {
+    "id": 38406769032,
+    "conclusion": "success",
+    "url": "https://github.com/jjasnek-ops/enfosi-guide-wiki/actions/runs/38406769032"
+  },
+  "indexNow": {
+    "id": 38406900896,
+    "conclusion": "success",
+    "httpStatus": 202,
+    "urlsSubmitted": 28,
+    "url": "https://github.com/jjasnek-ops/enfosi-guide-wiki/actions/runs/38406900896"
+  },
+  "receiptVerifiedOn": "2026-10-13",
+  "auditOnlyCommitsCanFollowDeployment": true
+}
