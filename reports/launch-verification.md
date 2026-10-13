@@ -15,7 +15,7 @@ Verified 2026-10-13, Asia/Shanghai. Overall requested formal-domain launch: BLOC
 | Apex DNS delegation | BLOCKED | Still launch1/launch2.spaceship.net, validating AD:true; domain-dns-state.json |
 | Apex HTTPS and requested site | BLOCKED | apex-current-state.json: SSL connection failed. Never bypassed TLS checks |
 | Pages apex custom domain | BLOCKED | Actual wizard requires Cloudflare DNS transfer; pending zone cannot complete binding |
-| GSC ownership | COMPLETED | Actual Ownership verified dialog; gsc-verified.png; DNS TXT lookup Status0 AD:true |
+| GSC ownership | COMPLETED | Actual Ownership verified dialog and target enfosiguide.wiki Settings: You are a verified owner; gsc-enfosi-settings.png; DNS TXT lookup Status0 AD:true |
 | Sitemap submission/fetch in GSC | NOT_STARTED | Depends on actual apex connection |
 | GA4 property/Web stream | COMPLETED | Stream 16119725645, G-LMPJRR4876; ga4-stream.png |
 | Consent and GA4 network receipt on Pages | COMPLETED | No Google script before choice; after acceptance one homepage page_view and one beginner page_view, each HTTP204; ga4-verification.json |
