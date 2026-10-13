@@ -18,8 +18,8 @@ Updated 2026-10-13T12:03:36.751Z. Project: Enfosi Guide Wiki. Overall formal-dom
 | GSC domain ownership | COMPLETED | Ownership verified; current registrar TXT preserves DNSSEC; gsc-dns-check.json |
 | GSC sitemap submission / fetch | NOT_STARTED | Submit after apex actually serves sitemap |
 | GA4 property and Web stream | COMPLETED | Enfosi Guide Wiki Web / stream 16119725645 / G-LMPJRR4876 |
-| GA4 receiving production page views | PENDING | Consent-gated loader configured; real event check recorded separately when performed |
-| Google discovery / indexing / impressions / clicks | NOT_STARTED | No claim of future organic results |
+| GA4 network receipt on Pages | COMPLETED | Homepage + beginner each one page_view / HTTP204; test traffic; ga4-verification.json |
+| Google discovery / indexing / impressions / clicks | PENDING | No verified search outcome; no claim of organic traffic |
 | Advertising applications / monetization | NOT_APPLICABLE | No advertising IDs or application |
 
 Do not rerun template customization. Read blockers.md and next-actions.md before resuming. Reports are evidence, not substitutes for the formal-domain launch.

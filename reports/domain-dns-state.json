@@ -1,0 +1,57 @@
+[
+  {
+    "type": "NS",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 2,
+        "TTL": 1800,
+        "data": "launch1.spaceship.net."
+      },
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 2,
+        "TTL": 1800,
+        "data": "launch2.spaceship.net."
+      }
+    ],
+    "collectedAt": "2026-10-13T20:04:52.0156018+08:00"
+  },
+  {
+    "type": "DS",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 43,
+        "TTL": 3600,
+        "data": "46478 13 2 23807087F95A350D2E6C50E59959D7D5648C8E957F244C65740B0D08D915ED6F"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:04:55.3010682+08:00"
+  },
+  {
+    "type": "A",
+    "status": 0,
+    "AD": true,
+    "answer": null,
+    "collectedAt": "2026-10-13T20:04:56.0800806+08:00"
+  },
+  {
+    "type": "TXT",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 16,
+        "TTL": 1800,
+        "data": "google-site-verification=mG7CJ51F0NN5UukgA-I-zhs0OxZoTGTQhw2SZyG2rWg"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:04:58.2584288+08:00"
+  }
+]

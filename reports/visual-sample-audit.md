@@ -11,3 +11,5 @@ Pagefind actual search Maniac returns seven indexed results including relevant a
 Consent: before choosing, Google tag script absent. Decline hides banner and keeps tag count zero. Final button rgb(100,109,24) with white text corrects the former bright-lime/white contrast. Original editorial share cards are labeled, not presented as gameplay photos. Ads remain off.
 
 Production receipt and any later GA event evidence are in launch-verification.md / ga4-verification.json. No unsupported browser/performance claims.
+
+Final Pages browser checks COMPLETED: current desktop homepage, beginner canonical/mobile table343px at390px viewport, actual seven-result search with rendered titles and zero error logs. Screenshots pages-home-final.png, pages-article-mobile.png and pages-search-mobile.png. GA4 network receipts saved separately; not counted as organic users.
