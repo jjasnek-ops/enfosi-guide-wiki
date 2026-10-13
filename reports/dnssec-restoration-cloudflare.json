@@ -1,0 +1,29 @@
+{
+  "resolver": "Cloudflare",
+  "DSStatus": 0,
+  "DSAnswer": [
+    {
+      "name": "enfosiguide.wiki",
+      "type": 43,
+      "TTL": 3600,
+      "data": "2371 13 2 670a5b5e1d00e288feca299a8a74fff51432d52b70d1fa75e446af2df113cf4d"
+    }
+  ],
+  "AStatus": 0,
+  "AD": true,
+  "AAnswer": [
+    {
+      "name": "enfosiguide.wiki",
+      "type": 1,
+      "TTL": 300,
+      "data": "104.21.11.205"
+    },
+    {
+      "name": "enfosiguide.wiki",
+      "type": 1,
+      "TTL": 300,
+      "data": "172.67.192.160"
+    }
+  ],
+  "checkedAt": "2026-10-13T20:53:59.0532827+08:00"
+}

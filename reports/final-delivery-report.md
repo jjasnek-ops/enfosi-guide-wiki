@@ -1,10 +1,10 @@
 # Enfosi Guide Wiki 交付报告
 
-核验日：2026-10-13。整体正式域名上线状态 **BLOCKED**；Pages 真实部署 **COMPLETED**。
+核验日：2026-10-13。正式域名工程上线 **COMPLETED**；DNSSEC 已恢复，公开验证 AD:true。Google 收录/搜索成果仍单独 PENDING。
 
 **A. 项目**
 
-正式域名 https://enfosiguide.wiki 尚未接通。可用站点 https://enfosi-guide-wiki.pages.dev；GitHub https://github.com/jjasnek-ops/enfosi-guide-wiki。部署代码 SHA：1667a6b09ac2945078ceb1178b1cd7579df638ef；Cloudflare 生产部署 ID：d8ae4560-ea44-40b3-9172-411841e2c7cf。AnvilWiki v2.37.0 / d4fce654128ce75a8355291ebf792584026de2b7，MIT 保留；Astro/MDX/Pagefind 静态产物，CLI direct upload。随后提交的验收报告与实际部署代码 SHA 分开记录。
+正式域名 https://enfosiguide.wiki 已接通且 HTTPS 有效。可用站点 https://enfosi-guide-wiki.pages.dev；GitHub https://github.com/jjasnek-ops/enfosi-guide-wiki。部署代码 SHA：1667a6b09ac2945078ceb1178b1cd7579df638ef；Cloudflare 生产部署 ID：d8ae4560-ea44-40b3-9172-411841e2c7cf。AnvilWiki v2.37.0 / d4fce654128ce75a8355291ebf792584026de2b7，MIT 保留；Astro/MDX/Pagefind 静态产物，CLI direct upload。随后提交的验收报告与实际部署代码 SHA 分开记录。
 
 **B. SEO**
 
@@ -16,13 +16,13 @@ Trends 的全球7/30天及美国30天均实际读取，与 GPTs 对照；指数�
 
 | 发布内容 | 当前可用 URL | 证据/范围 |
 |---|---|---|
-| Beginner guide | https://enfosi-guide-wiki.pages.dev/guides/beginner-guide/ | A/B，READY |
-| Spot fakes | https://enfosi-guide-wiki.pages.dev/guides/spot-fakes/ | A/B/C，PARTIAL，辨识线索有明确限制 |
-| Statue defense | https://enfosi-guide-wiki.pages.dev/guides/statue-defense/ | A/B，READY |
-| Classes | https://enfosi-guide-wiki.pages.dev/guides/classes/ | A/B/C，PARTIAL，不提供无证据排名/解锁 |
-| Maniac mode | https://enfosi-guide-wiki.pages.dev/guides/maniac-mode/ | A/B，PARTIAL，准备而非完整机制表 |
-| Official game | https://enfosi-guide-wiki.pages.dev/guides/official-game/ | A，READY |
-| SMILE MORE update | https://enfosi-guide-wiki.pages.dev/updates/smile-more/ | A/B，READY，区分 API 更新时间与发布日 |
+| Beginner guide | https://enfosiguide.wiki/guides/beginner-guide/ | A/B，READY |
+| Spot fakes | https://enfosiguide.wiki/guides/spot-fakes/ | A/B/C，PARTIAL，辨识线索有明确限制 |
+| Statue defense | https://enfosiguide.wiki/guides/statue-defense/ | A/B，READY |
+| Classes | https://enfosiguide.wiki/guides/classes/ | A/B/C，PARTIAL，不提供无证据排名/解锁 |
+| Maniac mode | https://enfosiguide.wiki/guides/maniac-mode/ | A/B，PARTIAL，准备而非完整机制表 |
+| Official game | https://enfosiguide.wiki/guides/official-game/ | A，READY |
+| SMILE MORE update | https://enfosiguide.wiki/updates/smile-more/ | A/B，READY，区分 API 更新时间与发布日 |
 
 官方体验确认 place78353262320982 / universe7882785167 / Tumore。七篇之外有首页、有效分类、FAQ、法律/联系、标签等实际页面；不存在空示例分类。兑换码、具体武器/Boss数值、概率、隐藏解锁、职业等级榜继续 HOLD。没有个人实机完整通关验证，社区线索不冒充确定规则。
 
@@ -32,12 +32,10 @@ COMPLETED：应用检查/lint/适用199测试（16套件）、内容/配置/语�
 
 **E. 上线**
 
-GitHub和Pages部署 COMPLETED。正式域名DNS/HTTPS/站点 BLOCKED：Spaceship现有DNSSEC开启，授权委派仍为旧nameserver，HTTPS探测失败；Cloudflare自定义域名向导要求先转入其DNS。等待此前一项“暂时关闭DNSSEC、移除旧DS、切换nameserver、切换后重新启用”的确认，未修改这两项设置。
+GitHub、Pages、正式域名 DNS/HTTPS/核心站点全部 COMPLETED。Pages 显示 Active / SSL enabled，NS/DS/A/TXT 公开验证全部 AD:true。已按授权临时暂停 DNSSEC、切换后发布 Cloudflare 的真实新 DS 并恢复保护。24个线上URL及28个sitemap URL全部符合预期。
 
-GSC域名所有权 COMPLETED，验证TXT在当前DNS上生效且AD:true；sitemap提交 NOT_STARTED。GA4属性/数据流 COMPLETED，G-LMPJRR4876；同意后加载，首页和新手攻略各一次page_view返回204。测试访问不是自然流量；GA4报表处理 PENDING，正式域名接收 BLOCKED。Google发现/收录/曝光/点击 PENDING，没有伪报搜索成果。
+GSC所有权与sitemap提交 COMPLETED。Google首页和Maniac实时测试均可抓取、可索引；索引数据库当前仍显示未收录。Sitemap最近处理状态 FAILED（Couldn't fetch），有效XML及所有URL访问检查通过，原因未确认，后续处理 PENDING，不能报成抓取成功。GA4正式域名首页和新手攻略各一次page_view/204，均为测试访问；GA4报表及自然流量 PENDING。
 
 **F. 总结**
 
-可访问的英文核心站点、代码、证据和审计已交付。未完成正式域名连接、其线上验收和GSC sitemap提交；并未将Pages替代域名冒充最终验收。真实风险：短期热度波动、强Wiki竞争、游戏持续更新、PARTIAL页面的机制缺口。第3/7/14/28天以实际域名激活日为基准，检查收录错误、曝光/查询/CTR/排名、GA4真实自然着陆页及官方更新。只有新证据或技术问题触发修改，不仅为刷新日期改稿。断点恢复从四份状态/日志/阻塞/下一步报告及AGENTS.md继续。
-
-临时关闭DNSSEC会暂停DNS签名验证。浏览器操作规则要求对降低安全保护进行即时确认，因此该一步不能由总体建站授权代替；此前确认问题仍待回复。
+英文核心站点已在正式域名上线，七篇原始攻略/更新、代码、DNSSEC、证据与审计已交付。无待处理上线授权。后续关注GSC sitemap失败状态是否恢复、真实收录/曝光/点击和GA4自然着陆页；不要把验收访问当自然流量。真实内容限制仍是职业/伪装/Maniac未验证的完整数值与解锁。检查节点：10月16/20/27及11月10日。没有创建提醒。只按官方更新、新证据、重要错误或真实搜索机会改稿。

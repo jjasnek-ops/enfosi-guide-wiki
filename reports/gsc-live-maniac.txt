@@ -1,0 +1,17 @@
+Tested on: Oct 13, 2026, 9:28 PM
+
+check_circle
+URL is available to Google
+If it gets indexed and selected as canonical, it could appear in Google Search results with all relevant enhancements. Learn more
+VIEW TESTED PAGE
+Page changed?
+REQUEST INDEXING
+check_circle
+Page availability
+Page can be indexed
+
+Enhancements & Experience
+check_circle
+Breadcrumbs
+1 valid item detected
+

@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "contentType": [
+    "application/xml"
+  ],
+  "xmlRoot": "urlset",
+  "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+  "urlCount": 28,
+  "googlebotUserAgentResponseOnly": true,
+  "collectedAt": "2026-10-13T21:25:44.5556244+08:00"
+}

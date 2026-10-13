@@ -1,0 +1,40 @@
+{
+  "host": "enfosiguide.wiki",
+  "testTraffic": true,
+  "tagBeforeAcceptance": 0,
+  "homepage": {
+    "requests": [
+      {
+        "requestId": "46120.12",
+        "measurementId": "G-LMPJRR4876",
+        "event": "page_view",
+        "page": "https://enfosiguide.wiki/"
+      }
+    ],
+    "responses": [
+      {
+        "requestId": "46120.12",
+        "status": 204
+      }
+    ]
+  },
+  "hasMore": false,
+  "truncated": false,
+  "collectedAt": "2026-10-13T13:09:39.391Z",
+  "article": {
+    "requests": [
+      {
+        "requestId": "46120.25",
+        "measurementId": "G-LMPJRR4876",
+        "event": "page_view",
+        "page": "https://enfosiguide.wiki/guides/beginner-guide/"
+      }
+    ],
+    "responses": [
+      {
+        "requestId": "46120.25",
+        "status": 204
+      }
+    ]
+  }
+}

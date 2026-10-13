@@ -1,0 +1,14 @@
+{
+  "domain": "enfosiguide.wiki",
+  "nameservers": [
+    "armfazh.ns.cloudflare.com",
+    "laura.ns.cloudflare.com"
+  ],
+  "pagesProject": "enfosi-guide-wiki",
+  "pagesUi": "Active / SSL enabled",
+  "dnssecUi": "Success! enfosiguide.wiki is protected with DNSSEC.",
+  "publicDnsAD": true,
+  "publicDnsSource": "domain-dns-verified.json",
+  "initialVerifiedRelease": "1667a6b09ac2945078ceb1178b1cd7579df638ef",
+  "recordedAt": "2026-10-13T13:36:59.306Z"
+}

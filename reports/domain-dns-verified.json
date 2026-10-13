@@ -1,0 +1,70 @@
+[
+  {
+    "type": "NS",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki",
+        "type": 2,
+        "TTL": 86400,
+        "data": "laura.ns.cloudflare.com."
+      },
+      {
+        "name": "enfosiguide.wiki",
+        "type": 2,
+        "TTL": 86400,
+        "data": "armfazh.ns.cloudflare.com."
+      }
+    ],
+    "collectedAt": "2026-10-13T20:56:06.0089915+08:00"
+  },
+  {
+    "type": "DS",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki",
+        "type": 43,
+        "TTL": 3600,
+        "data": "2371 13 2 670a5b5e1d00e288feca299a8a74fff51432d52b70d1fa75e446af2df113cf4d"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:56:07.1324686+08:00"
+  },
+  {
+    "type": "A",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.21.11.205"
+      },
+      {
+        "name": "enfosiguide.wiki",
+        "type": 1,
+        "TTL": 300,
+        "data": "172.67.192.160"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:56:08.7608153+08:00"
+  },
+  {
+    "type": "TXT",
+    "status": 0,
+    "AD": true,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki",
+        "type": 16,
+        "TTL": 300,
+        "data": "\"google-site-verification=mG7CJ51F0NN5UukgA-I-zhs0OxZoTGTQhw2SZyG2rWg\""
+      }
+    ],
+    "collectedAt": "2026-10-13T20:56:10.0155476+08:00"
+  }
+]

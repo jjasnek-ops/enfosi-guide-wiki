@@ -14,3 +14,4 @@ $taskResults | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path 're
 $taskFailed=@($taskResults | Where-Object { -not $_.passed })
 [pscustomobject]@{base=$BaseUrl;checked=$taskResults.Count;failed=$taskFailed.Count;failures=$taskFailed} | ConvertTo-Json -Depth 4
 if($taskFailed.Count -gt 0){exit 1}
+exit 0

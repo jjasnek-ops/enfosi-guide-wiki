@@ -1,0 +1,9 @@
+{
+  "domain": "enfosiguide.wiki",
+  "keyTag": 2371,
+  "algorithm": 13,
+  "digestType": 2,
+  "digest": "670A5B5E1D00E288FECA299A8A74FFF51432D52B70D1FA75E446AF2DF113CF4D",
+  "source": "Cloudflare DNSSEC DS Record dialog",
+  "collectedAt": "2026-10-13T12:44:34.580Z"
+}

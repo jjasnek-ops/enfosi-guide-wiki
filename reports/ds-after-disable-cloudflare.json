@@ -1,0 +1,22 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+    {
+      "name": "enfosiguide.wiki",
+      "type": 43
+    }
+  ],
+  "Answer": [
+    {
+      "name": "enfosiguide.wiki",
+      "type": 43,
+      "TTL": 3600,
+      "data": "46478 13 2 23807087f95a350d2e6c50e59959d7d5648c8e957f244c65740b0d08d915ed6f"
+    }
+  ]
+}

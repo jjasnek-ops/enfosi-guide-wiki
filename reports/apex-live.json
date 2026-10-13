@@ -1,0 +1,314 @@
+[
+  {
+    "url": "https://enfosiguide.wiki/",
+    "route": "/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 45180,
+    "collectedAt": "2026-10-13T21:38:35.4558967+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/",
+    "route": "/guides/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 37170,
+    "collectedAt": "2026-10-13T21:38:37.0740775+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/updates/",
+    "route": "/updates/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/updates/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 32048,
+    "collectedAt": "2026-10-13T21:38:38.2182694+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/beginner-guide/",
+    "route": "/guides/beginner-guide/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/beginner-guide/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 62145,
+    "collectedAt": "2026-10-13T21:38:41.5446421+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/spot-fakes/",
+    "route": "/guides/spot-fakes/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/spot-fakes/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 61646,
+    "collectedAt": "2026-10-13T21:38:43.0763838+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/statue-defense/",
+    "route": "/guides/statue-defense/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/statue-defense/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 61800,
+    "collectedAt": "2026-10-13T21:38:44.2085430+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/classes/",
+    "route": "/guides/classes/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/classes/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 62145,
+    "collectedAt": "2026-10-13T21:38:48.2721867+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/maniac-mode/",
+    "route": "/guides/maniac-mode/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/maniac-mode/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 62683,
+    "collectedAt": "2026-10-13T21:38:49.8178650+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/guides/official-game/",
+    "route": "/guides/official-game/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/guides/official-game/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 63605,
+    "collectedAt": "2026-10-13T21:38:50.7068856+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/updates/smile-more/",
+    "route": "/updates/smile-more/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/updates/smile-more/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 60322,
+    "collectedAt": "2026-10-13T21:38:51.8754041+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/faq/",
+    "route": "/faq/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/faq/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 31476,
+    "collectedAt": "2026-10-13T21:38:53.0824591+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/about/",
+    "route": "/about/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/about/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 27705,
+    "collectedAt": "2026-10-13T21:38:55.2698071+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/contact/",
+    "route": "/contact/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/contact/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 27023,
+    "collectedAt": "2026-10-13T21:38:59.6565463+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/privacy-policy/",
+    "route": "/privacy-policy/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/privacy-policy/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 28253,
+    "collectedAt": "2026-10-13T21:39:01.2201180+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/terms-of-service/",
+    "route": "/terms-of-service/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/terms-of-service/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 27531,
+    "collectedAt": "2026-10-13T21:39:01.9924452+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/copyright/",
+    "route": "/copyright/",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/copyright/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 27280,
+    "collectedAt": "2026-10-13T21:39:03.1642449+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/robots.txt",
+    "route": "/robots.txt",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "text/plain; charset=utf-8"
+    ],
+    "bytes": 69,
+    "collectedAt": "2026-10-13T21:39:03.8733079+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/sitemap.xml",
+    "route": "/sitemap.xml",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "application/xml"
+    ],
+    "bytes": 3243,
+    "collectedAt": "2026-10-13T21:39:04.8732021+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/sitemap-index.xml",
+    "route": "/sitemap-index.xml",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "application/xml"
+    ],
+    "bytes": 230,
+    "collectedAt": "2026-10-13T21:39:06.8023657+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/pagefind/pagefind.js",
+    "route": "/pagefind/pagefind.js",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "application/javascript"
+    ],
+    "bytes": 59368,
+    "collectedAt": "2026-10-13T21:39:09.8293493+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/images/hero.webp",
+    "route": "/images/hero.webp",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "image/webp"
+    ],
+    "bytes": 14292,
+    "collectedAt": "2026-10-13T21:39:10.8822625+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/favicon.svg",
+    "route": "/favicon.svg",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "image/svg+xml"
+    ],
+    "bytes": 305,
+    "collectedAt": "2026-10-13T21:39:11.7640769+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/.well-known/anvilwiki-deploy.txt",
+    "route": "/.well-known/anvilwiki-deploy.txt",
+    "status": 200,
+    "expected": 200,
+    "passed": true,
+    "canonical": null,
+    "contentType": [
+      "text/plain; charset=utf-8"
+    ],
+    "bytes": 40,
+    "collectedAt": "2026-10-13T21:39:12.4960018+08:00"
+  },
+  {
+    "url": "https://enfosiguide.wiki/does-not-exist-launch-check/",
+    "route": "/does-not-exist-launch-check/",
+    "status": 404,
+    "expected": 404,
+    "passed": true,
+    "canonical": "https://enfosiguide.wiki/404/",
+    "contentType": [
+      "text/html; charset=utf-8"
+    ],
+    "bytes": 19095,
+    "collectedAt": "2026-10-13T21:39:13.2625003+08:00"
+  }
+]

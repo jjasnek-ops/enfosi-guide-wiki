@@ -1,13 +1,10 @@
-# Next actions / resume
+# Next actions
 
-Updated 2026-10-13T12:03:36.751Z. Read current-delivery-status, execution-log and blockers first.
+Updated 2026-10-13T13:36:59.306Z. The site is already live at https://enfosiguide.wiki. DNSSEC is restored. No further migration confirmation is needed.
 
-1. Wait for the human's already-pending DNSSEC migration answer. If denied, retain the secure registrar delegation and Pages URL. If approved, disable only this domain's DNSSEC, remove old DS, then change only enfosiguide.wiki to Cloudflare's assigned nameservers. Recheck DS/delegation before changing records. Preserve the GSC TXT value from gsc-dns-check.json in the new zone. Replace only the two known Spaceship parking A records with the Pages CNAME through custom-domain setup. Do not touch other domains or unrelated records.
-2. Once the zone is active, complete Pages custom-domain binding; wait for certificate/active state. Enable Cloudflare DNSSEC and publish its exact DS at Spaceship. Verify validating DNS and HTTPS. No guessed DS data.
-3. Run scripts/verify-live.ps1 -BaseUrl https://enfosiguide.wiki -ReportName apex-live; then actual production browser mobile/search/404/canonical checks. Update each independent milestone. Enable repository variable PRODUCTION_DOMAIN_ACTIVE=true only after correct apex + deployed marker verified; manual IndexNow submission only then.
-4. Submit https://enfosiguide.wiki/sitemap.xml in the already verified GSC domain asset and inspect real fetch/URL results. Record discovery/indexing separately. Verify consent-gated GA4 page_view on actual apex and avoid reporting audit/test visits as organic users.
-5. Publish more pages only after independent evidence clears HOLD. Do not duplicate intents or relabel dates without a substantive change.
+1. At the next authorized review, reopen GSC sitemap details; current accepted submission reports Couldn't fetch. If it persists, compare actual HTTP/XML/robots and Google live URL results against the saved evidence before changing configuration. Do not continually resubmit or disable security. Indexing/exposure are independent milestones.
+2. Checkpoints after October13 launch: **Oct16 (+3), Oct20 (+7), Oct27 (+14), Nov10 (+28)**. Inspect GSC sitemap processing and indexing errors, then impressions/queries/CTR/rank; GA4 actual organic landing pages and useful engagement; official Roblox changes. These are documented checkpoints, not created reminders.
+3. Content expands only when evidence clears HOLD. Codes, exact damage/drop rates/rankings/hidden unlocks stay unpublished. PARTIAL content limits remain visible. Do not refresh dates without substantive changes.
+4. Deploy actual site changes using existing CLI Pages project; set CF_PAGES_COMMIT_SHA before build. Report/research-only pushes skip CI so they do not request an undeployed marker via IndexNow. Git push alone is not a deploy. IndexNow domain-active guard is true now; Google is not an IndexNow participant.
 
-Maintenance checks: launch day +3/+7/+14/+28. If apex activates Oct 13, these dates are Oct 16/20/27 and Nov 10; shift to actual activation date if later. Check GSC indexing/errors and impressions first, then queries/CTR/rank, GA4 organic landing pages and meaningful engagement, and actual Roblox update changes. Sustained demand decay with no exposure is a reason to stop low-value expansion. These are documented nodes; no reminders were created.
-
-Deploy using pnpm build, then pnpm dlx wrangler@4.149.0 pages deploy dist --project-name enfosi-guide-wiki --branch main. Set CF_PAGES_COMMIT_SHA to the release commit before building. Keep credentials out of arguments/reports. Never rerun apply-template, configure-launch, finish-assets or prepare-delivery over the completed site. Resume with the existing checkout/remote.
+Never rerun template initialization or hardcoded historical report generators over current delivery. Keep credentials, full transcripts and private screenshots local. Preserve the GSC TXT and exact current DS during future changes. Existing game identity and A/B/C evidence rules remain in AGENTS.md.

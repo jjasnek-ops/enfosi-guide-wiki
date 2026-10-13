@@ -1,0 +1,40 @@
+$ tsx scripts/check-sitemap.ts "https://enfosiguide.wiki"
+
+📋 Checking sitemap URLs against: https://enfosiguide.wiki
+
+Found 28 URLs. Checking...
+
+  ✅  200  https://enfosiguide.wiki/
+  ✅  200  https://enfosiguide.wiki/about/
+  ✅  200  https://enfosiguide.wiki/contact/
+  ✅  200  https://enfosiguide.wiki/copyright/
+  ✅  200  https://enfosiguide.wiki/faq/
+  ✅  200  https://enfosiguide.wiki/guides/
+  ✅  200  https://enfosiguide.wiki/guides/beginner-guide/
+  ✅  200  https://enfosiguide.wiki/guides/classes/
+  ✅  200  https://enfosiguide.wiki/guides/maniac-mode/
+  ✅  200  https://enfosiguide.wiki/guides/official-game/
+  ✅  200  https://enfosiguide.wiki/guides/spot-fakes/
+  ✅  200  https://enfosiguide.wiki/guides/statue-defense/
+  ✅  200  https://enfosiguide.wiki/privacy-policy/
+  ✅  200  https://enfosiguide.wiki/recent/
+  ✅  200  https://enfosiguide.wiki/tags/
+  ✅  200  https://enfosiguide.wiki/tags/beginner/
+  ✅  200  https://enfosiguide.wiki/tags/classes/
+  ✅  200  https://enfosiguide.wiki/tags/disguises/
+  ✅  200  https://enfosiguide.wiki/tags/equipment/
+  ✅  200  https://enfosiguide.wiki/tags/guides/
+  ✅  200  https://enfosiguide.wiki/tags/maniac/
+  ✅  200  https://enfosiguide.wiki/tags/official-links/
+  ✅  200  https://enfosiguide.wiki/tags/statue-defense/
+  ✅  200  https://enfosiguide.wiki/tags/teamwork/
+  ✅  200  https://enfosiguide.wiki/tags/updates/
+  ✅  200  https://enfosiguide.wiki/terms-of-service/
+  ✅  200  https://enfosiguide.wiki/updates/
+  ✅  200  https://enfosiguide.wiki/updates/smile-more/
+
+── Result ──
+  ✅ Passed: 28
+  ❌ Failed: 0
+
+🎉 All sitemap URLs returned 200.

@@ -13,3 +13,5 @@ Consent: before choosing, Google tag script absent. Decline hides banner and kee
 Production receipt and any later GA event evidence are in launch-verification.md / ga4-verification.json. No unsupported browser/performance claims.
 
 Final Pages browser checks COMPLETED: current desktop homepage, beginner canonical/mobile table343px at390px viewport, actual seven-result search with rendered titles and zero error logs. Screenshots pages-home-final.png, pages-article-mobile.png and pages-search-mobile.png. GA4 network receipts saved separately; not counted as organic users.
+
+Formal-domain scope COMPLETED October13: apex-home-desktop.png,apex-article-mobile.png,apex-search-mobile.png,apex-404-mobile.png. Actual390px viewport/table343px,seven real Maniac results,404body andzero checked console errors. Temporary CDP metrics restored.

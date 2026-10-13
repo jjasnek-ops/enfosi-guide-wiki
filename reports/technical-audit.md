@@ -15,7 +15,7 @@ Status: COMPLETED for local build checks; browser/production checks recorded sep
 | pnpm build | COMPLETED, static HTML and Pagefind |
 | pnpm check-links | COMPLETED, 700 links / 29 HTML pages |
 | node scripts/audit-site.mjs | COMPLETED, 29 HTML pages / 28 sitemap URLs, no errors |
-| pnpm check-sitemap | NOT_STARTED until production domain resolves |
+| pnpm check-sitemap https://enfosiguide.wiki | COMPLETED, exit0;28 URLs200 |
 | pnpm test:e2e | NOT_APPLICABLE to this game fork's release; template fixtures/marketing removed |
 
 Repairs: initializer-generated empty scaffolds removed; generic legal claims replaced; homepage CTA points to its actual named guide; mobile menu receives accessible name; generic configurable logo; default Astro sitemap origin changed from demo domain to site config; /sitemap.xml published from generated sitemap; stale favicon replaced. Empty alt attributes on redundant card thumbnails are valid decorative HTML, not missing ALT.

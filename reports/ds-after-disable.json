@@ -1,0 +1,23 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 43
+    }
+  ],
+  "Answer": [
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 43,
+      "TTL": 3600,
+      "data": "46478 13 2 23807087F95A350D2E6C50E59959D7D5648C8E957F244C65740B0D08D915ED6F"
+    }
+  ],
+  "Comment": "Response from 37.209.192.10."
+}

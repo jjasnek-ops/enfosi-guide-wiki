@@ -1,0 +1,35 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 43
+    }
+  ],
+  "Answer": [
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 43,
+      "TTL": 2744,
+      "data": "46478 13 2 23807087F95A350D2E6C50E59959D7D5648C8E957F244C65740B0D08D915ED6F"
+    },
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 46,
+      "TTL": 2744,
+      "data": "ds 8 2 3600 1793059678 1791881211 57159 wiki. FI41vm/b7TBPdHUUBroL572Id+ai1sn6RDvldR54xiEu1f/4oJu9bpZ3LPnz3z79KX9gtx14EnvSgmCZCgXWzSG+wHjhUpCotQAdd6rUv+N6lTABI9N7P6joA4dQk2tMtBPqHieLiOfEaOsWMBHcYHR7y7fqHcCIvxMjSR90EjAYv7wYPJgPR1/YLa1+EBFuH3nbMjBC8FPNzQkLOcuGMw=="
+    },
+    {
+      "name": "enfosiguide.wiki.",
+      "type": 46,
+      "TTL": 2744,
+      "data": "ds 13 2 3600 1793059678 1791881211 56120 wiki. t4Pf5ipKu4PU9Y73hjWC0HZGkjeq20tTycNNTDoGhDjT4x1Gk85cYBEU5xY93TnEFuqCLNX6BeLgy+82voEVtQ=="
+    }
+  ],
+  "edns_client_subnet": "0.0.0.0/0"
+}

@@ -1,25 +1,23 @@
 # Current delivery status
 
-Updated 2026-10-13T12:03:36.751Z. Project: Enfosi Guide Wiki. Overall formal-domain launch: BLOCKED by pending human DNSSEC migration confirmation. The usable Pages deployment is real; the apex is not yet connected.
+Updated 2026-10-13T13:36:59.306Z. **Formal-domain engineering launch: COMPLETED.** https://enfosiguide.wiki is live, HTTPS-valid and protected by restored DNSSEC. The user authorized the migration; no pending authorization remains.
 
-| Milestone | Status | Evidence / scope |
+| Milestone | Status | Evidence |
 |---|---|---|
-| Environment and official game identity | COMPLETED | 00-preflight.md; research/evidence-ledger.md |
-| AnvilWiki initialization | COMPLETED | v2.37.0 / d4fce654128ce75a8355291ebf792584026de2b7; MIT retained |
-| Similarweb visible Worldwide research | COMPLETED | 100 of 225 rows; report as of Oct 10; country fields unavailable |
-| Similarweb US/UK/CA/AU | BLOCKED | Custom packages paywall; US attempted, other countries not separately fetched |
-| SERP / Suggest / Trends cross-check | COMPLETED | Five real SERPs with explicit heading/rank limits; 35 Suggest queries; three Trends scopes |
-| Evidence and seven English articles | COMPLETED | Six guides and one update; READY or useful qualified PARTIAL |
-| Build / local browser / shared tests | COMPLETED | 29 HTML pages; 28 sitemap URLs; 700 links; 199 tests; screenshots |
-| GitHub push | COMPLETED | https://github.com/jjasnek-ops/enfosi-guide-wiki; main |
-| Cloudflare Pages deployment | COMPLETED | https://enfosi-guide-wiki.pages.dev; latest release details in launch-verification.md |
-| Registrar/domain authorization inspection | COMPLETED | Existing Spaceship domain; existing DNSSEC enabled; Cloudflare zone pending |
-| Apex DNS / HTTPS / formal production site | BLOCKED | Need confirmation to temporarily suspend DNSSEC for nameserver migration |
-| GSC domain ownership | COMPLETED | Ownership verified; current registrar TXT preserves DNSSEC; gsc-dns-check.json |
-| GSC sitemap submission / fetch | NOT_STARTED | Submit after apex actually serves sitemap |
-| GA4 property and Web stream | COMPLETED | Enfosi Guide Wiki Web / stream 16119725645 / G-LMPJRR4876 |
-| GA4 network receipt on Pages | COMPLETED | Homepage + beginner each one page_view / HTTP204; test traffic; ga4-verification.json |
-| Google discovery / indexing / impressions / clicks | PENDING | No verified search outcome; no claim of organic traffic |
-| Advertising applications / monetization | NOT_APPLICABLE | No advertising IDs or application |
+| Official Roblox identity, template and evidence-based content | COMPLETED | Six guides + one update; research/evidence-ledger.md |
+| Similarweb Worldwide and cross-source research | COMPLETED | 100/225 visible rows; five actual SERPs,35 Suggest queries,three Trends scopes; limits documented |
+| Similarweb country filters | BLOCKED | Existing subscription Custom packages paywall; no zero-volume claim |
+| Build/shared tests/local browser | COMPLETED | 199 tests16 suites,700 links,29 HTML,28 sitemap URLs |
+| GitHub + Cloudflare Pages | COMPLETED | Real project/source; current receipt in production-deployment.json when exported |
+| Formal domain/HTTPS/core routes | COMPLETED | apex-live.json24 routes,zero failures; sitemap-production.log28 URL200 |
+| DNS delegation and restored DNSSEC | COMPLETED | domain-dns-verified.json NS/DS/A/TXT status0,AD:true; registrar exact new DS |
+| Formal-domain desktop/mobile/search/404 | COMPLETED | apex screenshots/search text; no tested console errors;390px table343px |
+| GSC ownership and sitemap submission | COMPLETED | TXT preserved; two accepted submissions |
+| GSC sitemap successful processing | FAILED | Latest UI Couldn't fetch; follow-up PENDING; actual XML and28 URLs valid |
+| Google live fetch home + Maniac | COMPLETED | Both URL is available to Google / Page can be indexed; Maniac valid Breadcrumb |
+| Google indexing/discovery/search metrics | PENDING | Index inspection says not indexed/unknown; no claimed organic results |
+| GA4 property/consent/real apex network receipts | COMPLETED | G-LMPJRR4876, home+beginner each1 page_view/204; test visits |
+| GA4 processed reports/organic users | PENDING | Network receipts are not processed report/organic traffic proof |
+| Ads/applications | NOT_APPLICABLE | Ads remain off |
 
-Do not rerun template customization. Read blockers.md and next-actions.md before resuming. Reports are evidence, not substitutes for the formal-domain launch.
+Launch date October13,2026. Maintenance checkpoints Oct16/20/27 and Nov10. No reminder/automation created. Do not rerun bootstrap or historical report writers.

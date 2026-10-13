@@ -1,0 +1,63 @@
+[
+  {
+    "type": "NS",
+    "status": 0,
+    "AD": false,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "laura.ns.cloudflare.com."
+      },
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "armfazh.ns.cloudflare.com."
+      }
+    ],
+    "collectedAt": "2026-10-13T20:40:24.6280911+08:00"
+  },
+  {
+    "type": "DS",
+    "status": 0,
+    "AD": false,
+    "answer": null,
+    "collectedAt": "2026-10-13T20:40:25.9757689+08:00"
+  },
+  {
+    "type": "A",
+    "status": 0,
+    "AD": false,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.21.11.205"
+      },
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 1,
+        "TTL": 300,
+        "data": "172.67.192.160"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:40:26.6763673+08:00"
+  },
+  {
+    "type": "TXT",
+    "status": 0,
+    "AD": false,
+    "answer": [
+      {
+        "name": "enfosiguide.wiki.",
+        "type": 16,
+        "TTL": 300,
+        "data": "google-site-verification=mG7CJ51F0NN5UukgA-I-zhs0OxZoTGTQhw2SZyG2rWg"
+      }
+    ],
+    "collectedAt": "2026-10-13T20:40:27.5525479+08:00"
+  }
+]
