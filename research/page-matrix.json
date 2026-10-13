@@ -139,7 +139,7 @@
     "volume_period": "last 28 days, as of 2026-10-10 (if metric exists)",
     "geography": "Worldwide",
     "kd": null,
-    "serp_score": "UNVERIFIED",
+    "serp_score": 3,
     "slug": "/guides/maniac-mode/",
     "page_type": "guide",
     "user_problem": "Confirm the difficulty and prepare using current footage",

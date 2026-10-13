@@ -29,11 +29,11 @@ The upstream template-generator E2E and independent ops-toolkit CI jobs are not 
 
 Read AGENTS.md and reports/current-delivery-status.md, execution-log.md, blockers.md, next-actions.md before editing. Research evidence is in research/evidence-ledger.md. Only READY pages or useful explicitly limited PARTIAL pages may publish. Codes, rankings, damage values and hidden unlocks need current verification.
 
-Seven guide/update articles are published in this edition. No placeholder or empty category is routed. Ads, comments, GA4 and analytics are disabled until actually configured. Original transcripts and credential-bearing diagnostics stay local and ignored.
+Seven guide/update articles are published in this edition. No placeholder or empty category is routed. Ads, comments and extra beacons are disabled. GA4 G-LMPJRR4876 is configured in site.ts and loads only after optional-cookie acceptance; the privacy page describes the actual behavior. Original transcripts and credential-bearing diagnostics stay local and ignored.
 
 ## Deployment
 
-SITE_URL in wrangler.toml is https://enfosiguide.wiki. Local Astro sitemap uses the same configured site URL. pnpm build emits dist/, Pagefind and /sitemap.xml (copied from the actual generated sitemap-0.xml). Pages project: enfosi-guide-wiki, production branch main.
+SITE_URL in wrangler.toml is https://enfosiguide.wiki. Local Astro sitemap uses the same configured site URL. pnpm build emits dist/, Pagefind and /sitemap.xml (copied from the actual generated sitemap-0.xml). Pages project: enfosi-guide-wiki, production branch main. Deployment is CLI direct upload; a push alone does not deploy. IndexNow waits for PRODUCTION_DOMAIN_ACTIVE=true after real apex activation.
 
 Use wrangler pages deploy dist --project-name enfosi-guide-wiki --branch main with existing Cloudflare authorization. Never copy tokens into source, shell arguments or reports. Record the deployed commit and verify production URLs independently.
 

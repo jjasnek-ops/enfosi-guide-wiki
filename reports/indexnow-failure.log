@@ -1,0 +1,16 @@
+submit	Submit production sitemap to IndexNow	﻿2026-10-13T11:07:13.8758196Z ##[group]Run pnpm submit-indexnow -- --site "$SITE_URL" --wait-for-deploy "$DEPLOY_SHA" --wait-for-key --wait-seconds 150
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8759094Z [36;1mpnpm submit-indexnow -- --site "$SITE_URL" --wait-for-deploy "$DEPLOY_SHA" --wait-for-key --wait-seconds 150[0m
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8822793Z shell: /usr/bin/bash -e {0}
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8823056Z env:
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8823333Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8823700Z   SITE_URL: https://enfosiguide.wiki
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8823980Z   INDEXNOW_KEY: 
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8824248Z   DEPLOY_SHA: f543bfd3ed3d68b509da7ca57b2e13c28d18f8ff
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:13.8824570Z ##[endgroup]
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:14.7310624Z Already up to date
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:14.7320670Z Done in 380ms using pnpm v11.1.1
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:14.7498145Z $ tsx scripts/submit-indexnow.ts -- --site https://enfosiguide.wiki --wait-for-deploy f543bfd3ed3d68b509da7ca57b2e13c28d18f8ff --wait-for-key --wait-seconds 150
+submit	Submit production sitemap to IndexNow	2026-10-13T11:07:14.9602272Z [IndexNow] Waiting for production deployment f543bfd3ed3d68b509da7ca57b2e13c28d18f8ff…
+submit	Submit production sitemap to IndexNow	2026-10-13T11:09:44.9802207Z [IndexNow] Production deployment did not reach f543bfd3ed3d68b509da7ca57b2e13c28d18f8ff within 150s (live: unavailable).
+submit	Submit production sitemap to IndexNow	2026-10-13T11:09:45.0087979Z [ELIFECYCLE] Command failed with exit code 1.
+submit	Submit production sitemap to IndexNow	2026-10-13T11:09:45.0498288Z ##[error]Process completed with exit code 1.

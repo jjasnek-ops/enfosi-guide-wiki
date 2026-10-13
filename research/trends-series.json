@@ -1,0 +1,1208 @@
+[
+  {
+    "geography": "Worldwide",
+    "period": "30 days",
+    "source": "https://trends.google.com/trends/explore?date=today%201-m&q=enfosi,GPTs&hl=en",
+    "collectedOn": "2026-10-13",
+    "searchType": "Web Search",
+    "categories": "All categories",
+    "unit": "normalized 0–100 index within this comparison",
+    "average": {
+      "enfosi": 5,
+      "gpts": 28
+    },
+    "timezone": "UNVERIFIED: hourly labels preserved as displayed",
+    "partialCurrentPeriod": "Not established: exclude current day/hour from strong historical conclusions",
+    "rows": [
+      {
+        "label": "Sep 13",
+        "enfosi": 0,
+        "gpts": 17
+      },
+      {
+        "label": "Sep 14",
+        "enfosi": 0,
+        "gpts": 41
+      },
+      {
+        "label": "Sep 15",
+        "enfosi": 2,
+        "gpts": 46
+      },
+      {
+        "label": "Sep 16",
+        "enfosi": 0,
+        "gpts": 42
+      },
+      {
+        "label": "Sep 17",
+        "enfosi": 2,
+        "gpts": 53
+      },
+      {
+        "label": "Sep 18",
+        "enfosi": 0,
+        "gpts": 33
+      },
+      {
+        "label": "Sep 19",
+        "enfosi": 0,
+        "gpts": 67
+      },
+      {
+        "label": "Sep 20",
+        "enfosi": 0,
+        "gpts": 100
+      },
+      {
+        "label": "Sep 21",
+        "enfosi": 0,
+        "gpts": 81
+      },
+      {
+        "label": "Sep 22",
+        "enfosi": 0,
+        "gpts": 40
+      },
+      {
+        "label": "Sep 23",
+        "enfosi": 0,
+        "gpts": 30
+      },
+      {
+        "label": "Sep 24",
+        "enfosi": 0,
+        "gpts": 22
+      },
+      {
+        "label": "Sep 25",
+        "enfosi": 0,
+        "gpts": 28
+      },
+      {
+        "label": "Sep 26",
+        "enfosi": 5,
+        "gpts": 17
+      },
+      {
+        "label": "Sep 27",
+        "enfosi": 4,
+        "gpts": 21
+      },
+      {
+        "label": "Sep 28",
+        "enfosi": 4,
+        "gpts": 24
+      },
+      {
+        "label": "Sep 29",
+        "enfosi": 3,
+        "gpts": 19
+      },
+      {
+        "label": "Sep 30",
+        "enfosi": 2,
+        "gpts": 21
+      },
+      {
+        "label": "Oct 1",
+        "enfosi": 4,
+        "gpts": 18
+      },
+      {
+        "label": "Oct 2",
+        "enfosi": 6,
+        "gpts": 15
+      },
+      {
+        "label": "Oct 3",
+        "enfosi": 15,
+        "gpts": 12
+      },
+      {
+        "label": "Oct 4",
+        "enfosi": 14,
+        "gpts": 11
+      },
+      {
+        "label": "Oct 5",
+        "enfosi": 11,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 6",
+        "enfosi": 10,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 7",
+        "enfosi": 10,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 8",
+        "enfosi": 11,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 9",
+        "enfosi": 12,
+        "gpts": 13
+      },
+      {
+        "label": "Oct 10",
+        "enfosi": 16,
+        "gpts": 11
+      },
+      {
+        "label": "Oct 11",
+        "enfosi": 16,
+        "gpts": 10
+      },
+      {
+        "label": "Oct 12",
+        "enfosi": 12,
+        "gpts": 12
+      },
+      {
+        "label": "Oct 13",
+        "enfosi": 11,
+        "gpts": 13
+      }
+    ]
+  },
+  {
+    "geography": "United States",
+    "period": "30 days",
+    "source": "https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=enfosi,GPTs&hl=en",
+    "collectedOn": "2026-10-13",
+    "searchType": "Web Search",
+    "categories": "All categories",
+    "unit": "normalized 0–100 index within this comparison",
+    "average": {
+      "enfosi": 17,
+      "gpts": 33
+    },
+    "timezone": "UNVERIFIED: hourly labels preserved as displayed",
+    "partialCurrentPeriod": "Not established: exclude current day/hour from strong historical conclusions",
+    "rows": [
+      {
+        "label": "Sep 13",
+        "enfosi": 0,
+        "gpts": 30
+      },
+      {
+        "label": "Sep 14",
+        "enfosi": 0,
+        "gpts": 39
+      },
+      {
+        "label": "Sep 15",
+        "enfosi": 0,
+        "gpts": 60
+      },
+      {
+        "label": "Sep 16",
+        "enfosi": 0,
+        "gpts": 52
+      },
+      {
+        "label": "Sep 17",
+        "enfosi": 0,
+        "gpts": 100
+      },
+      {
+        "label": "Sep 18",
+        "enfosi": 0,
+        "gpts": 36
+      },
+      {
+        "label": "Sep 19",
+        "enfosi": 0,
+        "gpts": 0
+      },
+      {
+        "label": "Sep 20",
+        "enfosi": 0,
+        "gpts": 0
+      },
+      {
+        "label": "Sep 21",
+        "enfosi": 0,
+        "gpts": 0
+      },
+      {
+        "label": "Sep 22",
+        "enfosi": 0,
+        "gpts": 54
+      },
+      {
+        "label": "Sep 23",
+        "enfosi": 0,
+        "gpts": 59
+      },
+      {
+        "label": "Sep 24",
+        "enfosi": 0,
+        "gpts": 38
+      },
+      {
+        "label": "Sep 25",
+        "enfosi": 0,
+        "gpts": 52
+      },
+      {
+        "label": "Sep 26",
+        "enfosi": 0,
+        "gpts": 0
+      },
+      {
+        "label": "Sep 27",
+        "enfosi": 0,
+        "gpts": 0
+      },
+      {
+        "label": "Sep 28",
+        "enfosi": 0,
+        "gpts": 31
+      },
+      {
+        "label": "Sep 29",
+        "enfosi": 10,
+        "gpts": 41
+      },
+      {
+        "label": "Sep 30",
+        "enfosi": 8,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 1",
+        "enfosi": 13,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 2",
+        "enfosi": 24,
+        "gpts": 31
+      },
+      {
+        "label": "Oct 3",
+        "enfosi": 50,
+        "gpts": 21
+      },
+      {
+        "label": "Oct 4",
+        "enfosi": 47,
+        "gpts": 22
+      },
+      {
+        "label": "Oct 5",
+        "enfosi": 35,
+        "gpts": 35
+      },
+      {
+        "label": "Oct 6",
+        "enfosi": 33,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 7",
+        "enfosi": 30,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 8",
+        "enfosi": 36,
+        "gpts": 35
+      },
+      {
+        "label": "Oct 9",
+        "enfosi": 34,
+        "gpts": 29
+      },
+      {
+        "label": "Oct 10",
+        "enfosi": 51,
+        "gpts": 22
+      },
+      {
+        "label": "Oct 11",
+        "enfosi": 50,
+        "gpts": 23
+      },
+      {
+        "label": "Oct 12",
+        "enfosi": 43,
+        "gpts": 27
+      },
+      {
+        "label": "Oct 13",
+        "enfosi": 48,
+        "gpts": 24
+      }
+    ]
+  },
+  {
+    "geography": "Worldwide",
+    "period": "7 days",
+    "source": "https://trends.google.com/trends/explore?date=now%207-d&q=enfosi,GPTs&hl=en",
+    "collectedOn": "2026-10-13",
+    "searchType": "Web Search",
+    "categories": "All categories",
+    "unit": "normalized 0–100 index within this comparison",
+    "average": {
+      "enfosi": 45,
+      "gpts": 46
+    },
+    "timezone": "UNVERIFIED: hourly labels preserved as displayed",
+    "partialCurrentPeriod": "Not established: exclude current day/hour from strong historical conclusions",
+    "rows": [
+      {
+        "label": "Oct 6 at 7:00 PM",
+        "enfosi": 35,
+        "gpts": 57
+      },
+      {
+        "label": "Oct 6 at 8:00 PM",
+        "enfosi": 34,
+        "gpts": 67
+      },
+      {
+        "label": "Oct 6 at 9:00 PM",
+        "enfosi": 38,
+        "gpts": 64
+      },
+      {
+        "label": "Oct 6 at 10:00 PM",
+        "enfosi": 28,
+        "gpts": 65
+      },
+      {
+        "label": "Oct 6 at 11:00 PM",
+        "enfosi": 36,
+        "gpts": 61
+      },
+      {
+        "label": "Oct 7 at 12:00 AM",
+        "enfosi": 20,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 7 at 1:00 AM",
+        "enfosi": 23,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 7 at 2:00 AM",
+        "enfosi": 27,
+        "gpts": 52
+      },
+      {
+        "label": "Oct 7 at 3:00 AM",
+        "enfosi": 43,
+        "gpts": 62
+      },
+      {
+        "label": "Oct 7 at 4:00 AM",
+        "enfosi": 37,
+        "gpts": 52
+      },
+      {
+        "label": "Oct 7 at 5:00 AM",
+        "enfosi": 33,
+        "gpts": 68
+      },
+      {
+        "label": "Oct 7 at 6:00 AM",
+        "enfosi": 59,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 7 at 7:00 AM",
+        "enfosi": 61,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 7 at 8:00 AM",
+        "enfosi": 74,
+        "gpts": 70
+      },
+      {
+        "label": "Oct 7 at 9:00 AM",
+        "enfosi": 68,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 7 at 10:00 AM",
+        "enfosi": 39,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 7 at 11:00 AM",
+        "enfosi": 47,
+        "gpts": 67
+      },
+      {
+        "label": "Oct 7 at 12:00 PM",
+        "enfosi": 37,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 7 at 1:00 PM",
+        "enfosi": 45,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 7 at 2:00 PM",
+        "enfosi": 37,
+        "gpts": 60
+      },
+      {
+        "label": "Oct 7 at 3:00 PM",
+        "enfosi": 26,
+        "gpts": 67
+      },
+      {
+        "label": "Oct 7 at 4:00 PM",
+        "enfosi": 21,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 7 at 5:00 PM",
+        "enfosi": 35,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 7 at 6:00 PM",
+        "enfosi": 40,
+        "gpts": 46
+      },
+      {
+        "label": "Oct 7 at 7:00 PM",
+        "enfosi": 28,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 7 at 8:00 PM",
+        "enfosi": 22,
+        "gpts": 62
+      },
+      {
+        "label": "Oct 7 at 9:00 PM",
+        "enfosi": 40,
+        "gpts": 65
+      },
+      {
+        "label": "Oct 7 at 10:00 PM",
+        "enfosi": 32,
+        "gpts": 74
+      },
+      {
+        "label": "Oct 7 at 11:00 PM",
+        "enfosi": 29,
+        "gpts": 58
+      },
+      {
+        "label": "Oct 8 at 12:00 AM",
+        "enfosi": 25,
+        "gpts": 62
+      },
+      {
+        "label": "Oct 8 at 1:00 AM",
+        "enfosi": 29,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 8 at 2:00 AM",
+        "enfosi": 30,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 8 at 3:00 AM",
+        "enfosi": 30,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 8 at 4:00 AM",
+        "enfosi": 42,
+        "gpts": 53
+      },
+      {
+        "label": "Oct 8 at 5:00 AM",
+        "enfosi": 40,
+        "gpts": 46
+      },
+      {
+        "label": "Oct 8 at 6:00 AM",
+        "enfosi": 40,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 8 at 7:00 AM",
+        "enfosi": 57,
+        "gpts": 67
+      },
+      {
+        "label": "Oct 8 at 8:00 AM",
+        "enfosi": 52,
+        "gpts": 45
+      },
+      {
+        "label": "Oct 8 at 9:00 AM",
+        "enfosi": 59,
+        "gpts": 64
+      },
+      {
+        "label": "Oct 8 at 10:00 AM",
+        "enfosi": 58,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 8 at 11:00 AM",
+        "enfosi": 59,
+        "gpts": 73
+      },
+      {
+        "label": "Oct 8 at 12:00 PM",
+        "enfosi": 44,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 8 at 1:00 PM",
+        "enfosi": 27,
+        "gpts": 57
+      },
+      {
+        "label": "Oct 8 at 2:00 PM",
+        "enfosi": 24,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 8 at 3:00 PM",
+        "enfosi": 26,
+        "gpts": 47
+      },
+      {
+        "label": "Oct 8 at 4:00 PM",
+        "enfosi": 35,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 8 at 5:00 PM",
+        "enfosi": 23,
+        "gpts": 57
+      },
+      {
+        "label": "Oct 8 at 6:00 PM",
+        "enfosi": 39,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 8 at 7:00 PM",
+        "enfosi": 33,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 8 at 8:00 PM",
+        "enfosi": 35,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 8 at 9:00 PM",
+        "enfosi": 35,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 8 at 10:00 PM",
+        "enfosi": 29,
+        "gpts": 65
+      },
+      {
+        "label": "Oct 8 at 11:00 PM",
+        "enfosi": 41,
+        "gpts": 70
+      },
+      {
+        "label": "Oct 9 at 12:00 AM",
+        "enfosi": 33,
+        "gpts": 57
+      },
+      {
+        "label": "Oct 9 at 1:00 AM",
+        "enfosi": 26,
+        "gpts": 62
+      },
+      {
+        "label": "Oct 9 at 2:00 AM",
+        "enfosi": 29,
+        "gpts": 46
+      },
+      {
+        "label": "Oct 9 at 3:00 AM",
+        "enfosi": 26,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 9 at 4:00 AM",
+        "enfosi": 47,
+        "gpts": 49
+      },
+      {
+        "label": "Oct 9 at 5:00 AM",
+        "enfosi": 61,
+        "gpts": 45
+      },
+      {
+        "label": "Oct 9 at 6:00 AM",
+        "enfosi": 50,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 9 at 7:00 AM",
+        "enfosi": 55,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 9 at 8:00 AM",
+        "enfosi": 51,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 9 at 9:00 AM",
+        "enfosi": 46,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 9 at 10:00 AM",
+        "enfosi": 63,
+        "gpts": 57
+      },
+      {
+        "label": "Oct 9 at 11:00 AM",
+        "enfosi": 47,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 9 at 12:00 PM",
+        "enfosi": 47,
+        "gpts": 58
+      },
+      {
+        "label": "Oct 9 at 1:00 PM",
+        "enfosi": 29,
+        "gpts": 58
+      },
+      {
+        "label": "Oct 9 at 2:00 PM",
+        "enfosi": 28,
+        "gpts": 48
+      },
+      {
+        "label": "Oct 9 at 3:00 PM",
+        "enfosi": 29,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 9 at 4:00 PM",
+        "enfosi": 35,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 9 at 5:00 PM",
+        "enfosi": 42,
+        "gpts": 32
+      },
+      {
+        "label": "Oct 9 at 6:00 PM",
+        "enfosi": 38,
+        "gpts": 45
+      },
+      {
+        "label": "Oct 9 at 7:00 PM",
+        "enfosi": 28,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 9 at 8:00 PM",
+        "enfosi": 29,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 9 at 9:00 PM",
+        "enfosi": 33,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 9 at 10:00 PM",
+        "enfosi": 41,
+        "gpts": 62
+      },
+      {
+        "label": "Oct 9 at 11:00 PM",
+        "enfosi": 34,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 10 at 12:00 AM",
+        "enfosi": 33,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 1:00 AM",
+        "enfosi": 38,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 2:00 AM",
+        "enfosi": 41,
+        "gpts": 34
+      },
+      {
+        "label": "Oct 10 at 3:00 AM",
+        "enfosi": 38,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 4:00 AM",
+        "enfosi": 53,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 10 at 5:00 AM",
+        "enfosi": 54,
+        "gpts": 34
+      },
+      {
+        "label": "Oct 10 at 6:00 AM",
+        "enfosi": 66,
+        "gpts": 44
+      },
+      {
+        "label": "Oct 10 at 7:00 AM",
+        "enfosi": 83,
+        "gpts": 49
+      },
+      {
+        "label": "Oct 10 at 8:00 AM",
+        "enfosi": 92,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 10 at 9:00 AM",
+        "enfosi": 77,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 10 at 10:00 AM",
+        "enfosi": 91,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 10 at 11:00 AM",
+        "enfosi": 90,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 10 at 12:00 PM",
+        "enfosi": 100,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 10 at 1:00 PM",
+        "enfosi": 58,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 2:00 PM",
+        "enfosi": 56,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 3:00 PM",
+        "enfosi": 54,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 10 at 4:00 PM",
+        "enfosi": 52,
+        "gpts": 35
+      },
+      {
+        "label": "Oct 10 at 5:00 PM",
+        "enfosi": 36,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 10 at 6:00 PM",
+        "enfosi": 51,
+        "gpts": 33
+      },
+      {
+        "label": "Oct 10 at 7:00 PM",
+        "enfosi": 41,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 10 at 8:00 PM",
+        "enfosi": 55,
+        "gpts": 29
+      },
+      {
+        "label": "Oct 10 at 9:00 PM",
+        "enfosi": 48,
+        "gpts": 47
+      },
+      {
+        "label": "Oct 10 at 10:00 PM",
+        "enfosi": 47,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 10 at 11:00 PM",
+        "enfosi": 52,
+        "gpts": 29
+      },
+      {
+        "label": "Oct 11 at 12:00 AM",
+        "enfosi": 39,
+        "gpts": 33
+      },
+      {
+        "label": "Oct 11 at 1:00 AM",
+        "enfosi": 40,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 11 at 2:00 AM",
+        "enfosi": 38,
+        "gpts": 28
+      },
+      {
+        "label": "Oct 11 at 3:00 AM",
+        "enfosi": 50,
+        "gpts": 34
+      },
+      {
+        "label": "Oct 11 at 4:00 AM",
+        "enfosi": 47,
+        "gpts": 37
+      },
+      {
+        "label": "Oct 11 at 5:00 AM",
+        "enfosi": 60,
+        "gpts": 32
+      },
+      {
+        "label": "Oct 11 at 6:00 AM",
+        "enfosi": 61,
+        "gpts": 55
+      },
+      {
+        "label": "Oct 11 at 7:00 AM",
+        "enfosi": 80,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 11 at 8:00 AM",
+        "enfosi": 70,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 11 at 9:00 AM",
+        "enfosi": 96,
+        "gpts": 45
+      },
+      {
+        "label": "Oct 11 at 10:00 AM",
+        "enfosi": 87,
+        "gpts": 68
+      },
+      {
+        "label": "Oct 11 at 11:00 AM",
+        "enfosi": 78,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 11 at 12:00 PM",
+        "enfosi": 78,
+        "gpts": 59
+      },
+      {
+        "label": "Oct 11 at 1:00 PM",
+        "enfosi": 69,
+        "gpts": 65
+      },
+      {
+        "label": "Oct 11 at 2:00 PM",
+        "enfosi": 65,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 11 at 3:00 PM",
+        "enfosi": 42,
+        "gpts": 21
+      },
+      {
+        "label": "Oct 11 at 4:00 PM",
+        "enfosi": 36,
+        "gpts": 29
+      },
+      {
+        "label": "Oct 11 at 5:00 PM",
+        "enfosi": 47,
+        "gpts": 37
+      },
+      {
+        "label": "Oct 11 at 6:00 PM",
+        "enfosi": 50,
+        "gpts": 28
+      },
+      {
+        "label": "Oct 11 at 7:00 PM",
+        "enfosi": 51,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 11 at 8:00 PM",
+        "enfosi": 43,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 11 at 9:00 PM",
+        "enfosi": 45,
+        "gpts": 30
+      },
+      {
+        "label": "Oct 11 at 10:00 PM",
+        "enfosi": 44,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 11 at 11:00 PM",
+        "enfosi": 49,
+        "gpts": 31
+      },
+      {
+        "label": "Oct 12 at 12:00 AM",
+        "enfosi": 43,
+        "gpts": 34
+      },
+      {
+        "label": "Oct 12 at 1:00 AM",
+        "enfosi": 38,
+        "gpts": 26
+      },
+      {
+        "label": "Oct 12 at 2:00 AM",
+        "enfosi": 49,
+        "gpts": 16
+      },
+      {
+        "label": "Oct 12 at 3:00 AM",
+        "enfosi": 38,
+        "gpts": 31
+      },
+      {
+        "label": "Oct 12 at 4:00 AM",
+        "enfosi": 51,
+        "gpts": 24
+      },
+      {
+        "label": "Oct 12 at 5:00 AM",
+        "enfosi": 68,
+        "gpts": 44
+      },
+      {
+        "label": "Oct 12 at 6:00 AM",
+        "enfosi": 84,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 12 at 7:00 AM",
+        "enfosi": 79,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 12 at 8:00 AM",
+        "enfosi": 70,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 12 at 9:00 AM",
+        "enfosi": 66,
+        "gpts": 47
+      },
+      {
+        "label": "Oct 12 at 10:00 AM",
+        "enfosi": 67,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 12 at 11:00 AM",
+        "enfosi": 69,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 12 at 12:00 PM",
+        "enfosi": 51,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 12 at 1:00 PM",
+        "enfosi": 31,
+        "gpts": 49
+      },
+      {
+        "label": "Oct 12 at 2:00 PM",
+        "enfosi": 35,
+        "gpts": 50
+      },
+      {
+        "label": "Oct 12 at 3:00 PM",
+        "enfosi": 30,
+        "gpts": 56
+      },
+      {
+        "label": "Oct 12 at 4:00 PM",
+        "enfosi": 26,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 12 at 5:00 PM",
+        "enfosi": 42,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 12 at 6:00 PM",
+        "enfosi": 35,
+        "gpts": 52
+      },
+      {
+        "label": "Oct 12 at 7:00 PM",
+        "enfosi": 32,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 12 at 8:00 PM",
+        "enfosi": 32,
+        "gpts": 37
+      },
+      {
+        "label": "Oct 12 at 9:00 PM",
+        "enfosi": 37,
+        "gpts": 44
+      },
+      {
+        "label": "Oct 12 at 10:00 PM",
+        "enfosi": 42,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 12 at 11:00 PM",
+        "enfosi": 27,
+        "gpts": 42
+      },
+      {
+        "label": "Oct 13 at 12:00 AM",
+        "enfosi": 31,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 13 at 1:00 AM",
+        "enfosi": 27,
+        "gpts": 37
+      },
+      {
+        "label": "Oct 13 at 2:00 AM",
+        "enfosi": 41,
+        "gpts": 37
+      },
+      {
+        "label": "Oct 13 at 3:00 AM",
+        "enfosi": 43,
+        "gpts": 36
+      },
+      {
+        "label": "Oct 13 at 4:00 AM",
+        "enfosi": 51,
+        "gpts": 30
+      },
+      {
+        "label": "Oct 13 at 5:00 AM",
+        "enfosi": 51,
+        "gpts": 43
+      },
+      {
+        "label": "Oct 13 at 6:00 AM",
+        "enfosi": 51,
+        "gpts": 34
+      },
+      {
+        "label": "Oct 13 at 7:00 AM",
+        "enfosi": 56,
+        "gpts": 38
+      },
+      {
+        "label": "Oct 13 at 8:00 AM",
+        "enfosi": 43,
+        "gpts": 15
+      },
+      {
+        "label": "Oct 13 at 9:00 AM",
+        "enfosi": 58,
+        "gpts": 35
+      },
+      {
+        "label": "Oct 13 at 10:00 AM",
+        "enfosi": 65,
+        "gpts": 51
+      },
+      {
+        "label": "Oct 13 at 11:00 AM",
+        "enfosi": 35,
+        "gpts": 45
+      },
+      {
+        "label": "Oct 13 at 12:00 PM",
+        "enfosi": 47,
+        "gpts": 53
+      },
+      {
+        "label": "Oct 13 at 1:00 PM",
+        "enfosi": 31,
+        "gpts": 54
+      },
+      {
+        "label": "Oct 13 at 2:00 PM",
+        "enfosi": 35,
+        "gpts": 40
+      },
+      {
+        "label": "Oct 13 at 3:00 PM",
+        "enfosi": 23,
+        "gpts": 39
+      },
+      {
+        "label": "Oct 13 at 4:00 PM",
+        "enfosi": 13,
+        "gpts": 44
+      },
+      {
+        "label": "Oct 13 at 5:00 PM",
+        "enfosi": 36,
+        "gpts": 49
+      },
+      {
+        "label": "Oct 13 at 6:00 PM",
+        "enfosi": 24,
+        "gpts": 41
+      },
+      {
+        "label": "Oct 13 at 7:00 PM",
+        "enfosi": 35,
+        "gpts": 44
+      }
+    ]
+  }
+]

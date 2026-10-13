@@ -20,7 +20,10 @@
     /* Text-safe shade of the brand: --brand at 52% lightness is only 3.1:1
        on white (WCAG AA needs 4.5:1 for text). Derived from the H/S splits,
        so fork themes that only edit --brand/--brand-light stay consistent. */
-    --brand-text: var(--brand-h) var(--brand-s) 40%;
+    --brand-text: var(--brand-h) var(--brand-s) 26%;
+    /* Contrast-safe derived shades for this light brand palette. */
+    --brand-button-l: 26%;
+    --brand-button-hover-l: 22%;
   }
 
   .dark {
@@ -96,20 +99,20 @@
        --brand (52% lightness) gives only 3.1:1, so we darken it
        to ~40% for button backgrounds. This does NOT change --brand
        itself — it's a derived value for buttons only. */
-    background-color: hsl(var(--brand-h) var(--brand-s) 40%);
+    background-color: hsl(var(--brand-h) var(--brand-s) var(--brand-button-l));
   }
   .btn-primary:hover {
-    background-color: hsl(var(--brand-h) var(--brand-s) 35%);
+    background-color: hsl(var(--brand-h) var(--brand-s) var(--brand-button-hover-l));
   }
 
   /* Floating pill variant of btn-primary (landing community QR widget) —
      same AA-safe darkened brand background, rounded + shadowed. */
   .btn-fab {
     @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
-    background-color: hsl(var(--brand-h) var(--brand-s) 40%);
+    background-color: hsl(var(--brand-h) var(--brand-s) var(--brand-button-l));
   }
   .btn-fab:hover {
-    background-color: hsl(var(--brand-h) var(--brand-s) 35%);
+    background-color: hsl(var(--brand-h) var(--brand-s) var(--brand-button-hover-l));
   }
 
   .btn-outline {

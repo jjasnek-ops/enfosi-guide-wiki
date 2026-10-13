@@ -1,0 +1,48 @@
+import fs from 'node:fs';
+const write=(file,text)=>fs.writeFileSync(file,text.trim()+'\n');
+const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
+const queries=[['enfosi',4],['enfosi-wiki',4],['enfosi-guide',4],['enfosi-beginner-guide',4],['enfosi-maniac-mode',3]];
+let serp='# Google SERP analysis\n\nCollected 2026-10-13 through actual Google browser results. Scores are editorial assessments (0–5), not Similarweb KD. Geography was not reliably fixed to US. Linked headings include video results; observed order is not a certified ten-blue-link rank. Some first pages exposed fewer than ten linked headings, so complete top-ten coverage is NOT claimed.\n\n';
+for(const [slug,score] of queries){
+ const result=read(`research/serp/${slug}.json`);
+ serp+=`## ${result.query}: score ${score}/5\n\nObserved ${result.results.length} linked headings.\n\n| Observed order | Title | URL | Type | Version / answers intent |\n|---|---|---|---|---|\n`;
+ result.results.forEach((r,i)=>{const host=new URL(r.url).hostname; const type=host.includes('youtube')?'Video':host.includes('reddit')?'Discussion':host.includes('roblox')?'Official experience':host.includes('fandom')||host.includes('miraheze')?'Community wiki':'Independent site / other';serp+=`| ${i+1} | ${r.title.replaceAll('|','/')} | ${r.url} | ${type} | Not established from title alone; see direct checks below |\n`;});
+ serp+='\n';
+}
+serp+=`The primary/wiki queries already have mature Fandom and Miraheze entities, with Glagglepedia lore requiring identity separation. Guide and beginner queries combine several independent guide pages with older videos; one Gazo title explicitly says OUTDATED. Score 4 reflects that breadth, not a claim that every competitor is high quality. Maniac has targeted difficulty/modifier/update pages plus recent gameplay, so score 3 reflects existing specific coverage with room for evidence-linked preparation. No numeric score is assigned to unobserved queries.\n\nOpportunity: current-version beginner actions, a qualified disguise checklist, and Maniac preparation with timestamps and explicit unknowns. A fresh domain has no measured authority or ranking. Do not interpret an opportunity as a guaranteed rank.\n`;
+write('research/serp-analysis.md',serp);
+write('research/competitor-analysis.md',`# Competitor analysis
+
+Verified 2026-10-13. All size, age, DR and traffic fields remain UNVERIFIED unless separately sourced. A footer date or SEO title is not proof of incorporation/site age or fact freshness.
+
+| Site | Direct verification | Observed coverage | Quality / gap | Age, DR, total pages |
+|---|---|---|---|---|
+| enfosi.wiki | Homepage fetched HTTP 200; beginner page appears in real Google results | Broad game overview and beginner guide | Treat claims as community material; current class references elsewhere include a special Sobber caveat | UNVERIFIED |
+| enfosi-wiki.wiki | Homepage fetched HTTP 200; beginner page appears in real Google results | Classes, items, beginner coverage | October title is not a verified review date; independent reproduction of mechanics needed | UNVERIFIED |
+| enfosiwiki.wiki | Real Google primary/guide/beginner results | Guide/combat/weapons/update positioning | Full article facts and sitemap size not audited | UNVERIFIED |
+| enfosi.fandom.com | Actual browser read of Glaggles_(Playable) | Seven purchasable entries plus Sobber under Other Classes; linked encyclopedia coverage | Community roster can be attributed; balance/unlocks not independently validated | UNVERIFIED |
+| enfosi.miraheze.org | Google targeted results; public fetch 403 and browser content unavailable | Main, difficulties, Mild, Smile More Update | Strong relevant search presence, body quality/version cannot be claimed verified | UNVERIFIED |
+
+Primary evidence: research/serp/*.json and research/raw/fandom-playable-visible.txt. Full fetched competitor HTML stays ignored locally rather than rehosting copyrighted pages. Internal navigation seen in Fandom supports breadth; it does not establish total indexed-page count. No content was copied. The site's differentiation is concise current-version actions, official identity, timestamps and clear limits. Weapons/boss numerical encyclopedias remain a content gap, not fabricated launch pages.
+`);
+const trendFiles=[['Worldwide','30 days','trends-worldwide-30d-verified.txt','https://trends.google.com/trends/explore?date=today%201-m&q=enfosi,GPTs&hl=en'],['United States','30 days','trends-us-30d.txt','https://trends.google.com/trends/explore?date=today%201-m&geo=US&q=enfosi,GPTs&hl=en'],['Worldwide','7 days','trends-worldwide-7d-verified.txt','https://trends.google.com/trends/explore?date=now%207-d&q=enfosi,GPTs&hl=en']];
+const series=trendFiles.map(([geography,period,file,url])=>{const text=fs.readFileSync('research/raw/'+file,'utf8').replace(/[\u202a-\u202e\u2066-\u2069]/g,''); const avg=text.match(/Average\t(\d+)\t(\d+)/);const rows=[...text.matchAll(/^(Sep \d+|Oct \d+(?: at [^\t]+)?)\t(\d+)\t(\d+)$/gm)].map(m=>({label:m[1],enfosi:Number(m[2]),gpts:Number(m[3])}));return{geography,period,source:url,collectedOn:'2026-10-13',searchType:'Web Search',categories:'All categories',unit:'normalized 0–100 index within this comparison',average:avg?{enfosi:+avg[1],gpts:+avg[2]}:null,timezone:'UNVERIFIED: hourly labels preserved as displayed',partialCurrentPeriod:'Not established: exclude current day/hour from strong historical conclusions',rows};});
+write('research/trends-series.json',JSON.stringify(series,null,2));
+write('research/trends-series.csv','geography,period,label,enfosi_index,gpts_index\n'+series.flatMap(s=>s.rows.map(r=>[s.geography,s.period,r.label,r.enfosi,r.gpts].join(','))).join('\n'));
+write('research/search-demand-analysis.md',`# Search demand and launch decision
+
+262 distinct merged candidate keywords; 242 survive a first-pass irrelevance/cheat/media filter. These 242 are filtered candidates, not 242 verified publication intents. Seven evidence-supported intents are published. Further review is needed before additional pages.
+
+Similarweb was actually queried in the logged-in browser: Google / Worldwide / all traffic / last 28 days, report as of 2026-10-10. 100 of 225 phrase-match rows were captured. enfosi = 19.5K; enfosi wiki = 8.4K in that stated 28-day scope. KD/CPC shown as dash are null. The displayed average-volume field has an unverified period and is retained as text. Aggregate 98,750 includes overlap and irrelevant queries and must not be used as site traffic. US country selection is BLOCKED by a Custom packages paywall; UK/CA/AU share the locked control but were not individually fetched. The misleadingly named us-rows.json still contains Worldwide; us-28d.png proves the paywall. CSV metrics are a labeled transcription, not a completed vendor export.
+
+Trends: actual comparison of search terms enfosi and GPTs, All categories / Web Search. Worldwide 30-day averages 5 vs 28; US 30-day averages 17 vs 33; Worldwide 7-day averages 45 vs 46. Each comparison is normalized separately; never compare 5 and 45 as absolute demand growth or treat index zero as no searches. Daily Worldwide Enfosi rises from 4 on Oct 1 to 15 on Oct 3, 16 on Oct 10–11, then 12 on Oct 12. US values 13,50,51/50,43 on those dates. The last current-day values are preserved but may be incomplete. Hourly 7-day data are preserved with the displayed labels; display timezone is not verified. No forecast was used. This supports continued short-term interest with fluctuation, not a long-term forecast or search count. Initial chart loading failed and a CSV download timed out; retries rendered the real time-series accessibly. trends-series.csv is our transcription of those visible numbers, not the failed native download.
+
+35 Google Suggest requests (main, a–z and requested prefixes) were made through the public suggestion endpoint; the verified PowerShell responses are preserved. Suggestions identify wording, not volume or real mechanics. Similarweb, Google result pages, recent Maniac gameplay and current Roblox metadata agree on real interest in the game; they do not validate codes or tier lists.
+
+Scores: enfosi 4; wiki 4; guide 4; beginner 4; Maniac 3. See serp-analysis.md for actual observed headings and collection limits. Best launch opportunities: beginner run sequence, disguise inspection with caveats, statue objective, current class comparison and Maniac preparation. Hold codes, exact weapon/boss stats, hidden unlock routes, rankings and complete roster claims pending independent evidence. Seasonality is UNVERIFIED; the observed October rise is temporally consistent with SMILE MORE/Maniac evidence but causation is not established.
+
+Public discussions: Reddit threads appear in real SERPs; their bodies were not reviewed. No public official Discord was verified (Roblox social-links endpoint 401). These remain evidence limits, not invented sources.
+`);
+const matrix=read('research/page-matrix.json'); for(const row of matrix){if(row.primary_keyword==='maniac mode enfosi')row.serp_score=3;}write('research/page-matrix.json',JSON.stringify(matrix,null,2));
+write('research/page-matrix.md','# Publication matrix\n\nSee page-matrix.json for all required fields. Scores use actual observed SERPs only; PARTIAL publication addresses a narrower question and labels unknowns.\n\n| Keyword | URL | Status | Published | Grade | SERP score |\n|---|---|---|---|---|---|\n'+matrix.map(r=>`| ${r.primary_keyword} | ${r.slug} | ${r.publish_status} | ${r.published} | ${r.evidence_grade} | ${r.serp_score} |`).join('\n'));
+console.log(JSON.stringify({trendSamples:series.map(s=>({geography:s.geography,period:s.period,rows:s.rows.length})),serpQueries:queries.length}));

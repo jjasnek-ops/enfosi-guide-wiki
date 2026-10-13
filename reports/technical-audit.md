@@ -13,7 +13,7 @@ Status: COMPLETED for local build checks; browser/production checks recorded sep
 | pnpm check-i18n --strict-ui | COMPLETED, English only |
 | pnpm template-audit | COMPLETED, 14/14 |
 | pnpm build | COMPLETED, static HTML and Pagefind |
-| pnpm check-links | COMPLETED, 671 links / 29 HTML pages |
+| pnpm check-links | COMPLETED, 700 links / 29 HTML pages |
 | node scripts/audit-site.mjs | COMPLETED, 29 HTML pages / 28 sitemap URLs, no errors |
 | pnpm check-sitemap | NOT_STARTED until production domain resolves |
 | pnpm test:e2e | NOT_APPLICABLE to this game fork's release; template fixtures/marketing removed |
@@ -22,4 +22,4 @@ Repairs: initializer-generated empty scaffolds removed; generic legal claims rep
 
 Application typecheck excludes upstream test fixtures. Eight demo-specific suites excluded explicitly; generic parse/locale/title fixture assumptions updated. Initial failed outputs retained in reports/test-initial.log; no claim that the unmodified template's entire suite passes on a rebranded fork.
 
-All sitemap URLs are real generated pages on the canonical host. No draft, codes, Japanese fallback, placeholder or 404 URL enters sitemap. JSON-LD parses, canonical/description/title/H1 checks pass. Ads/comments/trackers absent. Real mobile/search checks pending in visual-sample-audit.md.
+All sitemap URLs are real generated pages on the canonical host. No draft, codes, Japanese fallback, placeholder or 404 URL enters sitemap. JSON-LD parses, canonical/description/title/H1 checks pass. Ads/comments/beacons absent. Genuine GA4 ID configured with consent-gated loading; decline verified unloaded. Actual mobile/search checks completed in visual-sample-audit.md. GA reception is independently verified later.

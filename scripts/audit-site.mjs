@@ -21,7 +21,8 @@ for(const file of files){
   try{JSON.parse(match[1]);}catch{errors.push(`${url}: invalid JSON-LD`);}
  }
  for(const match of html.matchAll(/<img\b[^>]*>/g)){if(!/\balt(?:="[^"]*"|(?=\s|>))/.test(match[0]))errors.push(`${url}: image without alt`);}
- if(/googletagmanager\.com|adsbygoogle|giscus\.app\/client\.js/.test(html))errors.push(`${url}: third-party tracking/ad script enabled`);
+ if(/<script[^>]*src="https:\/\/(?:www\.googletagmanager\.com|pagead2\.googlesyndication\.com|giscus\.app)/.test(html))errors.push(`${url}: unconditional tracking/ad script enabled`);
+ if(html.includes('G-LMPJRR4876')&&!html.includes('data-consent-accept'))errors.push(`${url}: analytics without consent controls`);
  pages.push({url,title,canonical,headings,description,noindex:/name="robots"[^>]*content="[^"]*noindex/.test(html)});
 }
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');

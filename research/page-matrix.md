@@ -1,19 +1,19 @@
-# Page matrix
+# Publication matrix
 
-Full required fields are in [page-matrix.json](page-matrix.json). PARTIAL published pages solve a narrow problem and state their unverified limits. No HOLD page is routed.
+See page-matrix.json for all required fields. Scores use actual observed SERPs only; PARTIAL publication addresses a narrower question and labels unknowns.
 
-| Keyword | URL | Evidence | Status | Published |
-|---|---|---|---|---|
-| enfosi beginner guide | /guides/beginner-guide/ | A/B | READY | true |
-| how to spot fakes in enfosi | /guides/spot-fakes/ | A/B/C | PARTIAL | true |
-| enfosi statue defense | /guides/statue-defense/ | A/B | READY | true |
-| enfosi classes | /guides/classes/ | A/B/C | PARTIAL | true |
-| maniac mode enfosi | /guides/maniac-mode/ | A/B | PARTIAL | true |
-| enfosi smile more update | /updates/smile-more/ | A/B | READY | true |
-| enfosi roblox | /guides/official-game/ | A | READY | true |
-| enfosi codes | none | D | HOLD | false |
-| enfosi weapon tier list | none | D | HOLD | false |
-| where can i refilll my ammo in enfosi | none | D | HOLD | false |
-| how to ping in enfosi roblox | none | D | HOLD | false |
-| enfosi bosses | none | D | HOLD | false |
-| enfosi discord | none | D | HOLD | false |
+| Keyword | URL | Status | Published | Grade | SERP score |
+|---|---|---|---|---|---|
+| enfosi beginner guide | /guides/beginner-guide/ | READY | true | A/B | 4 |
+| how to spot fakes in enfosi | /guides/spot-fakes/ | PARTIAL | true | A/B/C | UNVERIFIED |
+| enfosi statue defense | /guides/statue-defense/ | READY | true | A/B | UNVERIFIED |
+| enfosi classes | /guides/classes/ | PARTIAL | true | A/B/C | UNVERIFIED |
+| maniac mode enfosi | /guides/maniac-mode/ | PARTIAL | true | A/B | 3 |
+| enfosi smile more update | /updates/smile-more/ | READY | true | A/B | UNVERIFIED |
+| enfosi roblox | /guides/official-game/ | READY | true | A | UNVERIFIED |
+| enfosi codes | null | HOLD | false | D | UNVERIFIED |
+| enfosi weapon tier list | null | HOLD | false | D | UNVERIFIED |
+| where can i refilll my ammo in enfosi | null | HOLD | false | D | UNVERIFIED |
+| how to ping in enfosi roblox | null | HOLD | false | D | UNVERIFIED |
+| enfosi bosses | null | HOLD | false | D | UNVERIFIED |
+| enfosi discord | null | HOLD | false | D | UNVERIFIED |

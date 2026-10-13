@@ -12,6 +12,8 @@ export interface SiteConfig {
   shortName: string;
   /** Configurable wiki mark; game-specific choices stay in the config layer. */
   logoIcon?: string;
+  /** Public GA4 measurement ID; loading remains gated by visitor consent. */
+  ga4MeasurementId?: string;
   /** Site description for Organization JSON-LD and og:site_name. */
   description: string;
   /** Domain without protocol or trailing slash. e.g. "anvilquestwiki.wiki" */
@@ -67,6 +69,7 @@ export const site: SiteConfig = {
   name: 'Enfosi Guide Wiki',
   shortName: 'ENFOSI',
   logoIcon: 'lucide:scan-eye',
+  ga4MeasurementId: 'G-LMPJRR4876',
   description: 'Evidence-based Enfosi guides for Roblox: learn the statue-defense objective, identify impostors, and understand the SMILE MORE update.',
   domain: 'enfosiguide.wiki',
   tagline: 'Unofficial ENFOSI Wiki, Guides & Updates',

@@ -1,9 +1,9 @@
 $ astro check
-18:56:57 [content] Syncing content
-18:56:57 [content] Synced content
-18:56:57 [types] Generated 612ms
-18:56:57 [check] Getting diagnostics for Astro files in D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki...
-Result (142 files): 
+19:59:30 [content] Syncing content
+19:59:30 [content] Synced content
+19:59:30 [types] Generated 631ms
+19:59:30 [check] Getting diagnostics for Astro files in D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki...
+Result (144 files): 
 - 0 errors
 - 0 warnings
 - 0 hints

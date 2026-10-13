@@ -123,7 +123,7 @@ const xDefaultHref = defaultAlt
     : `${siteUrl}${Astro.url.pathname.replace(localePrefixRe, '')}`;
 
 // Optional analytics / verification / ads (env-var gated — empty = not injected).
-const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
+const gaId = (import.meta.env.PUBLIC_GA_ID as string | undefined) || site.ga4MeasurementId;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;

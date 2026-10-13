@@ -18,10 +18,11 @@ export const legalContent: Record<'about' | 'privacy-policy' | 'terms-of-service
   'privacy-policy': {
     intro: [`${site.name} is a static guide site. Reading guides and using local search does not require an account.`],
     sections: [
-      section('Hosting and external services', ['Cloudflare hosts the site and may process ordinary request information to deliver pages and protect its network. This launch has advertising, GA4, analytics beacons and embedded comments disabled.', 'Following Roblox, community-wiki, GitHub or YouTube links takes you to services with their own policies. Video previews can request a thumbnail from YouTube; the player loads after interaction.']),
-      section('Browser storage', ['The site stores theme preferences locally in your browser. Search uses a locally delivered Pagefind index. No guide-reading account database or form submission backend is operated by this site.']),
+      section('Hosting and external services', ['Cloudflare hosts the site and may process ordinary request information to deliver pages and protect its network. Advertising, additional analytics beacons and embedded comments are disabled.', 'Following Roblox, community-wiki, GitHub or YouTube links takes you to services with their own policies. Video previews can request a thumbnail from YouTube; the player loads after interaction.']),
+      section('Optional Google Analytics', ['Google Analytics 4 loads only after you accept optional analytics cookies. It measures page views and interactions such as scrolling and outbound clicks, together with ordinary device, browser and approximate location information. Declining keeps the Google tag unloaded. Google processes analytics data under its own policies. No advertising service is enabled.'], [], [{ label: 'Google privacy policy', href: 'https://policies.google.com/privacy' }]),
+      section('Browser storage', ['The site stores theme and optional-cookie choices locally in your browser. You can clear this site’s browser data to reset your choice. Accepted analytics can use Google cookies. Search uses a locally delivered Pagefind index. No guide-reading account database or form submission backend is operated by this site.']),
       section('Contact information', ['GitHub handles information you submit through an issue under its own policies. Issues are public: share only details needed to describe a correction or request.']),
-      section('Updates and questions', ['If analytics or advertising is enabled later, this page will be updated to describe the actual service and consent behavior. Policy reviewed 13 October 2026.'], [], [contact]),
+      section('Updates and questions', ['This page describes the services configured for this edition. Policy reviewed 13 October 2026.'], [], [contact]),
     ],
   },
   'terms-of-service': {

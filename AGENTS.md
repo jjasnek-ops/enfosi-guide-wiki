@@ -1,5 +1,17 @@
 # AGENTS.md
 
+## Enfosi fork delivery and resume rules
+
+This checkout is now Enfosi Guide Wiki, an English-only game-site fork. The upstream template notes below are retained as reference and provenance. Actual release scope and exclusions are documented in README.md and reports/technical-audit.md.
+
+Before resuming, read reports/current-delivery-status.md, execution-log.md, blockers.md and next-actions.md. Never rerun apply-template or bootstrap customization scripts over completed content. Preserve the verified Roblox identity (universe 7882785167, place 78353262320982, Tumore). All facts must map to research/evidence-ledger.md. Do not invent codes, stats, ranks, controls or unlocks.
+
+Canonical host is enfosiguide.wiki; Cloudflare Pages project enfosi-guide-wiki. A Pages deployment and an active custom domain are independent milestones. Browser confirmation is pending for temporary DNSSEC suspension during nameserver migration: do not disable DNSSEC or switch nameservers until the human responds. No later refresh or elapsed time constitutes approval. Preserve the GSC TXT record during DNS migration.
+
+Runtime is static Astro/MDX/Pagefind. Ads remain disabled. The game fork uses 16 applicable shared suites (199 tests); eight demo-fixture suites are explicitly excluded. Local site audit and real production/browser checks are required in addition to unit tests. Do not infer production success from build output. Keep credentials and full third-party transcripts out of Git.
+
+Initialization completed on 2026-10-13 from AnvilWiki 2.37.0 (d4fce654128ce75a8355291ebf792584026de2b7). Do not rebuild deleted marketing/demo routes or unselected-language content merely to satisfy upstream demo tests.
+
 Workspace instructions for ZCode agents working on AnvilWiki.
 
 ## Repository Purpose
