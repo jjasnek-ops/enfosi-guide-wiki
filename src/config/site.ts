@@ -10,6 +10,8 @@ export interface SiteConfig {
   name: string;
   /** Short name for PWA manifest, mobile logo, and the long-title <title> suffix (>50 chars). e.g. "AQ Wiki" */
   shortName: string;
+  /** Configurable wiki mark; game-specific choices stay in the config layer. */
+  logoIcon?: string;
   /** Site description for Organization JSON-LD and og:site_name. */
   description: string;
   /** Domain without protocol or trailing slash. e.g. "anvilquestwiki.wiki" */
@@ -62,39 +64,31 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: 'Anvil Quest Wiki',
-  shortName: 'AQ Wiki',
-  description:
-    'Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Every guide carries a last-verified date.',
-  domain: 'anvil.wiki',
-  tagline: 'Your forge for everything Anvil Quest',
-  legalNotice:
-    'Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
-  // 👉 APPLY TEMPLATE: set a real address if you run no social channels —
-  // the contact page renders it as a mailto link.
+  name: 'Enfosi Guide Wiki',
+  shortName: 'ENFOSI',
+  logoIcon: 'lucide:scan-eye',
+  description: 'Evidence-based Enfosi guides for Roblox: learn the statue-defense objective, identify impostors, and understand the SMILE MORE update.',
+  domain: 'enfosiguide.wiki',
+  tagline: 'Unofficial ENFOSI Wiki, Guides & Updates',
+  legalNotice: 'Unofficial fan site. Not affiliated with Tumore or Roblox. Game names and assets belong to their respective owners.',
+  // Set a real address if you run no social channels — the contact page
+  // renders it as a mailto link.
   contactEmail: '',
   social: {
-    official: 'https://example.com/anvil-quest',
-    discord: 'https://discord.gg/example',
-    youtube: 'https://youtube.com/@example',
-    twitter: 'https://twitter.com/example',
-    reddit: 'https://reddit.com/r/anvilquest',
+    official: 'https://www.roblox.com/games/78353262320982/Enfosi',
   },
-  // 👉 APPLY TEMPLATE: point these at the game's real canonical pages.
-  sameAs: [
-    'https://example.com/anvil-quest',
-    'https://en.wikipedia.org/wiki/Anvil_Quest',
-  ],
   game: {
-    name: 'Anvil Quest',
+    name: 'Enfosi',
     platform: 'Roblox',
-    developer: 'Forge Studios',
-    genre: 'Fantasy RPG',
-    releaseDate: '2026-01-15',
+    developer: 'Tumore',
+    genre: 'PvE Shooter',
+    releaseDate: '',
   },
-  // hero.webp is 1200×630 (the recommended OG share aspect ratio).
+  // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
+  // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
   ogImageWidth: 1200,
   ogImageHeight: 630,
+  defaultAuthor: 'Enfosi Guide Wiki',
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

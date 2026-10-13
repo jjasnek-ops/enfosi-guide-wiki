@@ -1,16 +1,16 @@
 {
-  "name": "anvilwiki",
+  "name": "enfosi-guide-wiki",
   "version": "2.37.0",
   "type": "module",
-  "description": "Open-source game wiki site template. Astro + Cloudflare Pages. Free, fast, beginner-friendly.",
+  "description": "Independent English Enfosi guides for Roblox, built with AnvilWiki.",
   "license": "MIT",
-  "homepage": "https://anvil.wiki",
+  "homepage": "https://enfosiguide.wiki",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PNGTRID/AnvilWiki.git"
+    "url": "https://github.com/jjasnek-ops/enfosi-guide-wiki.git"
   },
   "bugs": {
-    "url": "https://github.com/PNGTRID/AnvilWiki/issues"
+    "url": "https://github.com/jjasnek-ops/enfosi-guide-wiki/issues"
   },
   "keywords": [
     "astro",
@@ -33,7 +33,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts",
+    "postbuild": "pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts && node scripts/postbuild-launch.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "typecheck": "astro check",

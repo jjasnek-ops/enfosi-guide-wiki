@@ -1,0 +1,71 @@
+[
+  {
+    "key": "roblox-universe",
+    "url": "https://apis.roblox.com/universes/v1/places/78353262320982/universe",
+    "collectedAt": "2026-10-13T10:05:31.284Z",
+    "status": 200,
+    "finalUrl": "https://apis.roblox.com/universes/v1/places/78353262320982/universe",
+    "bytes": 25
+  },
+  {
+    "key": "roblox-game",
+    "url": "https://games.roblox.com/v1/games?universeIds=7882785167",
+    "collectedAt": "2026-10-13T10:05:31.351Z",
+    "status": 403,
+    "finalUrl": "https://games.roblox.com/v1/games?universeIds=7882785167",
+    "bytes": 65
+  },
+  {
+    "key": "roblox-group",
+    "url": "https://groups.roblox.com/v1/groups/9835935",
+    "collectedAt": "2026-10-13T10:05:31.352Z",
+    "status": 403,
+    "finalUrl": "https://groups.roblox.com/v1/groups/9835935",
+    "bytes": 65
+  },
+  {
+    "key": "roblox-social",
+    "url": "https://games.roblox.com/v1/games/7882785167/social-links/list",
+    "collectedAt": "2026-10-13T10:05:31.353Z",
+    "status": 401,
+    "finalUrl": "https://games.roblox.com/v1/games/7882785167/social-links/list",
+    "bytes": 82
+  },
+  {
+    "key": "competitor-enfosi",
+    "url": "https://enfosi.wiki/",
+    "collectedAt": "2026-10-13T10:05:31.354Z",
+    "status": 200,
+    "finalUrl": "https://enfosi.wiki/",
+    "bytes": 11115
+  },
+  {
+    "key": "competitor-enfosi-wiki",
+    "url": "https://enfosi-wiki.wiki/",
+    "collectedAt": "2026-10-13T10:05:31.355Z",
+    "status": 200,
+    "finalUrl": "https://enfosi-wiki.wiki/",
+    "bytes": 113337
+  },
+  {
+    "key": "fandom-glaggles",
+    "url": "https://enfosi.fandom.com/wiki/Glaggles",
+    "collectedAt": "2026-10-13T10:05:31.356Z",
+    "status": "FAILED",
+    "error": "fetch failed"
+  },
+  {
+    "key": "fandom-classes",
+    "url": "https://enfosi.fandom.com/wiki/Classes",
+    "collectedAt": "2026-10-13T10:05:31.357Z",
+    "status": "FAILED",
+    "error": "fetch failed"
+  },
+  {
+    "key": "domain-before-launch",
+    "url": "https://enfosiguide.wiki/",
+    "collectedAt": "2026-10-13T10:05:31.358Z",
+    "status": "FAILED",
+    "error": "fetch failed"
+  }
+]

@@ -46,7 +46,11 @@ pnpm-debug.log*
 seo-reports/
 
 # daily ops reports (local automation, never committed)
-reports/
+# Project audit reports are deliverables. Keep credential-bearing diagnostics local.
+reports/private/
+research/raw/transcripts/
+research/raw/competitor-*.txt
+research/serp/*-full.txt
 
 # local tool output (review reports etc.)
 out/

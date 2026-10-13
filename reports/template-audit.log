@@ -1,0 +1,35 @@
+$ tsx scripts/template-audit.ts
+
+🧰 AnvilWiki template health check
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 代码层纯净度（src/pages | components | lib 无 demo 游戏字符串）
+  ✅ 85 code-layer files scanned, zero demo-game strings in live code
+
+2. 配置层完整度（site.ts 已换皮 + 分类三处一致）
+  ✅ site.ts domain "enfosiguide.wiki" is not the demo domain
+  ✅ site.ts identity "Enfosi Guide Wiki" / game "Enfosi" is not the demo game
+  ✅ 2 nav keys consistent with en.json labels and content dirs
+
+3. 内容层可替换性（每类文章数 + draft 遗留）
+  ℹ️  en/guides: 6 articles
+  ℹ️  en/updates: 1 article
+  ✅ all 2 en categories have articles
+  ℹ️  ja: 0 articles across 2 categories
+  ✅ no draft:true leftovers in src/content/wiki/
+
+4. 换皮残留（demo 图片资产 + public/ demo 文件 + wrangler.toml demo 值 + 不实承诺措辞）
+  ✅ no demo covers in src/assets/covers/
+  ✅ no demo gallery / inline article images
+  ✅ no demo public/ residue (search-console token + ads unit pages)
+  ✅ no demo articles in src/content/wiki/
+  ✅ no "Updated daily by the community" promise anywhere in src/
+  ✅ wrangler.toml SITE_URL "https://enfosiguide.wiki" is not the demo domain
+  ✅ wrangler.toml has no demo Giscus config
+  ✅ wrangler.toml [vars] carries no demo values (full DEMO_VAR_VALUES scan)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ 模板健康度：14/14 — 模板干净，可以放心复制做下一个站。
+

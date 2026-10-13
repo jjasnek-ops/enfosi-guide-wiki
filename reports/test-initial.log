@@ -1,0 +1,498 @@
+$ vitest run
+
+ RUN  v4.1.11 D:/CursorProjects/enfosi-wiki/enfosi-guide-wiki
+
+ ❯ tests/redirects.test.ts (0 test)
+ ❯ tests/codes-consistency.test.ts (9 tests | 7 failed | 1 skipped) 13ms
+     × en: home badge-list highlights mirror the codes page active set 6ms
+     × en: body test-pass date equals frontmatter lastModified 1ms
+     × en: title/description month anchors match lastModified month 1ms
+     × ja: home badge-list highlights mirror the codes page active set 1ms
+     × ja: body test-pass date equals frontmatter lastModified 1ms
+     × ja: title/description month anchors match lastModified month 1ms
+     × ja: expiryDate keeps the locale's own date form (no English month words) 1ms
+ ❯ tests/community-digest.test.ts (0 test)
+ ❯ tests/content-utils.test.ts (18 tests | 1 failed) 30ms
+     × strips the .mdx extension the glob loader includes in the id 10ms
+ ❯ tests/handbook.test.ts (23 tests | 3 failed) 110ms
+     × HandbookChapter opts chapters into the search index 5ms
+     × landing content pages opt into the search index (community digest, comparison, landing home) 1ms
+     × LandingLayout ships the search button by default (whole site is searchable) 1ms
+ ❯ tests/landing-paths.test.ts (0 test)
+stderr | tests/apply-template.test.ts
+⚠️ the existing home namespace in en.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+
+ ❯ tests/apply-template.test.ts (93 tests | 8 failed) 93ms
+     × DEMO_VAR_VALUES covers every live value in the shipped wrangler.toml (drift guard) 15ms
+     × every demo public file is covered by the content registry (no silent-keep holes) 5ms
+     × the shipped demo locale files still carry the site.name marker (marker drift guard) 1ms
+     × every shipped demo article carries the demo-game marker (marker drift guard) 3ms
+     × the inline python regex removes exactly the demo block, byte-preserving the rest 1ms
+     × the shipped demo site.ts parses as the demo identity (drift guard) 1ms
+     × demo placeholder values are wiped on a first run (shipped-file drift guard) 6ms
+     × removes exactly the demo block from the shipped authors.ts, byte-preserving the rest 1ms
+ ❯ tests/seo.test.ts (19 tests | 1 failed) 30ms
+       × skips the suffix when the title already carries the game name 9ms
+Q1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3:  ❯ tests/routing-flags.test.ts (7 tests | 2 failed) 60ms
+     × parses the real repo routing.ts 14ms
+     × default root is the process cwd (repo root under vitest) 2ms
+ ❯ tests/changelog.test.ts (4 tests | 1 failed) 12ms
+     × PROJECT_VERSION stays in sync with package.json (version 五处 release checklist, now gated) 4ms
+ ❯ tests/workflows.test.ts (46 tests | 1 failed) 760ms
+     × the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing 7ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/community-digest.test.ts [ tests/community-digest.test.ts ]
+Error: Cannot find module '~/components/landing/community-digest.json' imported from D:/CursorProjects/enfosi-wiki/enfosi-guide-wiki/tests/community-digest.test.ts
+ ❯ tests/community-digest.test.ts:22:1
+     20| import { fileURLToPath } from 'node:url';
+     21| import { describe, expect, test } from 'vitest';
+     22| import digest from '~/components/landing/community-digest.json';
+       | ^
+     23|
+     24| const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/27]⎯
+
+ FAIL  tests/landing-paths.test.ts [ tests/landing-paths.test.ts ]
+Error: Cannot find module '~/config/landing' imported from D:/CursorProjects/enfosi-wiki/enfosi-guide-wiki/tests/landing-paths.test.ts
+ ❯ tests/landing-paths.test.ts:18:1
+     16| import { fileURLToPath } from 'node:url';
+     17| import { describe, expect, test } from 'vitest';
+     18| import { landingPath } from '~/config/landing';
+       | ^
+     19| import { handbookPath } from '~/lib/handbook';
+     20|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/27]⎯
+
+ FAIL  tests/redirects.test.ts [ tests/redirects.test.ts ]
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\public\_redirects'
+ ❯ parseRedirects tests/redirects.test.ts:70:15
+     68|
+     69| function parseRedirects(): Rule[] {
+     70|   const raw = readFileSync(`${repoRoot}public/_redirects`, 'utf8');
+       |               ^
+     71|   const rules: Rule[] = [];
+     72|   for (const line of raw.split('\n')) {
+ ❯ tests/redirects.test.ts:111:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/27]⎯
+
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 24 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/apply-template.test.ts > rewriteWranglerVars is value-aware (a re-run must not wipe the user env — S1) > DEMO_VAR_VALUES covers every live value in the shipped wrangler.toml (drift guard)
+AssertionError: unregistered demo value: "https://enfosiguide.wiki": expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:277:9
+    275|         v === '' || genericDefaults.has(v) || v === 'Announcements' ||…
+    276|         `unregistered demo value: "${v}"`,
+    277|       ).toBe(true);
+       |         ^
+    278|     }
+    279|     // Paired-rule guard: the shipped file must carry Announcements TO…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/27]⎯
+
+ FAIL  tests/apply-template.test.ts > demo asset inventories stay in sync with setup.yml (drift has shipped before) > every demo public file is covered by the content registry (no silent-keep holes)
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\public\ads\sticky-320x50.html'
+ ❯ tests/apply-template.test.ts:624:22
+    622|     // residue in forks (isDemoPublicFileContent defaults to keep).
+    623|     for (const [rel, marker] of Object.entries(DEMO_ADSTERRA_UNIT_MARK…
+    624|       const source = readFileSync(join(repoRoot, 'public', rel), 'utf8…
+       |                      ^
+    625|       expect(source, rel).toContain(marker);
+    626|     }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/27]⎯
+
+ FAIL  tests/apply-template.test.ts > demo locale deletion is content-aware (rebranded locales must survive re-runs) > the shipped demo locale files still carry the site.name marker (marker drift guard)
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:803:40
+    801|     for (const locale of ['en', 'ja']) {
+    802|       const raw = readFileSync(join(repoRoot, 'src/locales', `${locale…
+    803|       expect(isDemoLocaleContent(raw)).toBe(true);
+       |                                        ^
+    804|     }
+    805|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/27]⎯
+
+ FAIL  tests/apply-template.test.ts > demo article clearing is content-aware (re-runs must keep user work) > every shipped demo article carries the demo-game marker (marker drift guard)
+AssertionError: D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\en\guides\beginner-guide.mdx lacks the demo-game marker (Anvil Quest) — content-aware clearing would keep it: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:849:9
+    847|         isDemoArticleContent(readFileSync(file, 'utf8')),
+    848|         `${file} lacks the demo-game marker (${DEMO_GAME_NAMES.join(',…
+    849|       ).toBe(true);
+       |         ^
+    850|     }
+    851|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/27]⎯
+
+ FAIL  tests/apply-template.test.ts > setup.yml demo-author removal still matches the real authors.ts > the inline python regex removes exactly the demo block, byte-preserving the rest
+AssertionError: expected -1 to be greater than -1
+ ❯ tests/apply-template.test.ts:915:19
+    913|     const start = lines.findIndex((l) => l.includes('// DEMO'));
+    914|     const end = lines.findIndex((l) => l.includes("'Forge Master Kael'…
+    915|     expect(start).toBeGreaterThan(-1);
+       |                   ^
+    916|     expect(end).toBe(start + 1);
+    917|     const expected = [...lines.slice(0, start), ...lines.slice(end + 1…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/27]⎯
+
+ FAIL  tests/apply-template.test.ts > re-run identity detection (S12: re-run = confirm current, never demo defaults) > the shipped demo site.ts parses as the demo identity (drift guard)
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:1037:39
+    1035|     const id = parseSiteTsIdentity(raw);
+    1036|     expect(id).not.toBeNull();
+    1037|     expect(isDemoSiteTsIdentity(id!)).toBe(true);
+       |                                       ^
+    1038|     expect(DEMO_DOMAINS).toContain(id!.domain);
+    1039|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/27]⎯
+
+ FAIL  tests/apply-template.test.ts > rewriteSiteTs is value-aware on the optional hand-fill fields > demo placeholder values are wiped on a first run (shipped-file drift guard)
+AssertionError: expected 'export const site: SiteConfig = {\n  …' not to contain 'defaultAuthor'
+
+- Expected
++ Received
+
+- defaultAuthor
++ export const site: SiteConfig = {
++   name: 'Test Game Wiki',
++   shortName: 'TG',
++   description: 'Complete Test Game wiki with guides, codes, and tier lists. Every page carries a verified date.',
++   domain: 'testgame.pages.dev',
++   tagline: 'Forge your knowledge',
++   legalNotice: 'Fan-made, not affiliated with the developer.',
++   // Set a real address if you run no social channels — the contact page
++   // renders it as a mailto link.
++   contactEmail: '',
++   social: {
++     official: 'https://example.com/game',
++   },
++   game: {
++     name: 'Test Game',
++     platform: 'Roblox',
++     developer: 'Test Studios',
++     genre: 'RPG',
++     releaseDate: '',
++   },
++   defaultAuthor: 'Enfosi Guide Wiki',
++   // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
++   // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
++   ogImageWidth: 1200,
++   ogImageHeight: 630,
++ };
+
+ ❯ tests/apply-template.test.ts:1201:23
+    1199|     expect(block).toContain("contactEmail: '',");
+    1200|     expect(block).not.toContain('discord:');
+    1201|     expect(block).not.toContain('defaultAuthor');
+       |                       ^
+    1202|     expect(block).not.toContain('sameAs');
+    1203|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/27]⎯
+
+ FAIL  tests/apply-template.test.ts > stripDemoAuthors — the CLI authors.ts regex (real-file contract + setup.yml parity) > removes exactly the demo block from the shipped authors.ts, byte-preserving the rest
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:1353:26
+    1351|     const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), …
+    1352|     const once = stripDemoAuthors(src);
+    1353|     expect(once.changed).toBe(true);
+       |                          ^
+    1354|     expect(once.cleaned).not.toContain('Forge Master Kael');
+    1355|     expect(once.cleaned).not.toContain('// DEMO');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/27]⎯
+
+ FAIL  tests/changelog.test.ts > CHANGELOG release contract > PROJECT_VERSION stays in sync with package.json (version 五处 release checklist, now gated)
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\config\landing-shared.ts'
+ ❯ tests/changelog.test.ts:43:20
+     41|   test('PROJECT_VERSION stays in sync with package.json (version 五处 re…
+     42|     const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'u…
+     43|     const shared = readFileSync(join(root, 'src/config/landing-shared.…
+       |                    ^
+     44|     const projectVersion = shared.match(/PROJECT_VERSION = '([^']+)'/)…
+     45|     expect(projectVersion, "src/config/landing-shared.ts must keep PRO…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > en: home badge-list highlights mirror the codes page active set
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\en\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:163:48
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > en: body test-pass date equals frontmatter lastModified
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\en\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:169:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > en: title/description month anchors match lastModified month
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\en\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:184:32
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > ja: home badge-list highlights mirror the codes page active set
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\ja\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:163:48
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > ja: body test-pass date equals frontmatter lastModified
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\ja\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:169:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > ja: title/description month anchors match lastModified month
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\ja\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:184:32
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/27]⎯
+
+ FAIL  tests/codes-consistency.test.ts > codes page ↔ home highlights consistency > ja: expiryDate keeps the locale's own date form (no English month words)
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\content\wiki\ja\codes\all-codes.mdx'
+ ❯ readCodesPage tests/codes-consistency.test.ts:79:10
+     77|
+     78| function readCodesPage(locale: string): string {
+     79|   return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/al…
+       |          ^
+     80| }
+     81|
+ ❯ tests/codes-consistency.test.ts:200:49
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/27]⎯
+
+ FAIL  tests/content-utils.test.ts > parseEntryId > strips the .mdx extension the glob loader includes in the id
+AssertionError: expected null to deeply equal { locale: 'ja', …(2) }
+
+- Expected:
+{
+  "category": "bosses",
+  "locale": "ja",
+  "slug": "emberfang",
+}
+
++ Received:
+null
+
+ ❯ tests/content-utils.test.ts:14:53
+     12|
+     13|   it('strips the .mdx extension the glob loader includes in the id', (…
+     14|     expect(parseEntryId('ja/bosses/emberfang.mdx')).toEqual({
+       |                                                     ^
+     15|       locale: 'ja',
+     16|       category: 'bosses',
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/27]⎯
+
+ FAIL  tests/handbook.test.ts > handbook search contract (Pagefind) > HandbookChapter opts chapters into the search index
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\components\landing\HandbookChapter.astro'
+ ❯ src tests/handbook.test.ts:128:35
+    126|
+    127| describe('handbook search contract (Pagefind)', () => {
+    128|   const src = (rel: string) => fs.readFileSync(path.resolve(ROOT, rel)…
+       |                                   ^
+    129|
+    130|   it('HandbookChapter opts chapters into the search index', () => {
+ ❯ tests/handbook.test.ts:135:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/27]⎯
+
+ FAIL  tests/handbook.test.ts > handbook search contract (Pagefind) > landing content pages opt into the search index (community digest, comparison, landing home)
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\components\landing\CommunityHighlights.astro'
+ ❯ src tests/handbook.test.ts:128:35
+    126|
+    127| describe('handbook search contract (Pagefind)', () => {
+    128|   const src = (rel: string) => fs.readFileSync(path.resolve(ROOT, rel)…
+       |                                   ^
+    129|
+    130|   it('HandbookChapter opts chapters into the search index', () => {
+ ❯ tests/handbook.test.ts:143:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/27]⎯
+
+ FAIL  tests/handbook.test.ts > handbook search contract (Pagefind) > LandingLayout ships the search button by default (whole site is searchable)
+Error: ENOENT: no such file or directory, open 'D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\src\components\landing\LandingLayout.astro'
+ ❯ src tests/handbook.test.ts:128:35
+    126|
+    127| describe('handbook search contract (Pagefind)', () => {
+    128|   const src = (rel: string) => fs.readFileSync(path.resolve(ROOT, rel)…
+       |                                   ^
+    129|
+    130|   it('HandbookChapter opts chapters into the search index', () => {
+ ❯ tests/handbook.test.ts:154:20
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/27]⎯
+
+ FAIL  tests/routing-flags.test.ts > readLocales / readDefaultLocale — success > parses the real repo routing.ts
+AssertionError: expected [ 'en' ] to deeply equal [ 'en', 'ja' ]
+
+- Expected
++ Received
+
+  [
+    "en",
+-   "ja",
+  ]
+
+ ❯ tests/routing-flags.test.ts:36:35
+     34| describe('readLocales / readDefaultLocale — success', () => {
+     35|   test('parses the real repo routing.ts', () => {
+     36|     expect(readLocales(repoRoot)).toEqual(['en', 'ja']);
+       |                                   ^
+     37|     expect(readDefaultLocale(repoRoot)).toBe('en');
+     38|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/27]⎯
+
+ FAIL  tests/routing-flags.test.ts > readLocales / readDefaultLocale — success > default root is the process cwd (repo root under vitest)
+AssertionError: expected [ 'en' ] to deeply equal [ 'en', 'ja' ]
+
+- Expected
++ Received
+
+  [
+    "en",
+-   "ja",
+  ]
+
+ ❯ tests/routing-flags.test.ts:41:27
+     39|
+     40|   test('default root is the process cwd (repo root under vitest)', () …
+     41|     expect(readLocales()).toEqual(['en', 'ja']);
+       |                           ^
+     42|   });
+     43|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/27]⎯
+
+ FAIL  tests/seo.test.ts > SEO helpers > pageTitle > skips the suffix when the title already carries the game name
+AssertionError: expected 'Anvil Quest Boss Guide — Enfosi Guide…' to be 'Anvil Quest Boss Guide' // Object.is equality
+
+Expected: "Anvil Quest Boss Guide"
+Received: "Anvil Quest Boss Guide — Enfosi Guide Wiki"
+
+ ❯ tests/seo.test.ts:186:17
+    184|     it('skips the suffix when the title already carries the game name'…
+    185|       const t = pageTitle('Anvil Quest Boss Guide');
+    186|       expect(t).toBe('Anvil Quest Boss Guide');
+       |                 ^
+    187|     });
+    188|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/27]⎯
+
+ FAIL  tests/workflows.test.ts > setup.yml python [vars] rewrite is value-aware (executes the real heredoc) > the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing
+AssertionError: expected '\n# Cloudflare Pag' to contain 'FORKERS READ THIS FIRST'
+
+- Expected
++ Received
+
+- FORKERS READ THIS FIRST
++
++ # Cloudflare Pag
+
+ ❯ tests/workflows.test.ts:573:20
+    571|     const real = readFileSync(join(root, 'wrangler.toml'), 'utf8');
+    572|     const header = real.slice(0, real.indexOf('END FORKER WARNING') + …
+    573|     expect(header).toContain('FORKERS READ THIS FIRST');
+       |                    ^
+    574|     const { out } = runVarsRewrite(`${header}\n\n${demoVars}`);
+    575|     expect(out).not.toContain('FORKERS');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/27]⎯
+
+
+ Test Files  11 failed | 13 passed (24)
+      Tests  24 failed | 349 passed | 1 skipped (374)
+   Start at  18:35:28
+   Duration  2.24s (transform 4.47s, setup 0ms, import 6.86s, tests 1.56s, environment 4ms)
+
+[ELIFECYCLE] Test failed. See above for more details.

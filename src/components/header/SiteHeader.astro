@@ -57,7 +57,7 @@ const samePagePathFor = (loc: Locale) => {
       class="flex items-center gap-2 font-bold text-foreground"
       aria-label={site.name}
     >
-      <Icon name="lucide:hammer" class="h-6 w-6 text-nav" />
+      <Icon name={site.logoIcon ?? 'lucide:book-open'} class="h-6 w-6 text-nav" />
       <span class="hidden sm:inline">{site.shortName}</span>
     </a>
 
@@ -107,6 +107,7 @@ const samePagePathFor = (loc: Locale) => {
       {/* Mobile menu */}
       <details class="relative md:hidden">
         <summary
+          aria-label={nav.menu}
           class="inline-flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-md text-foreground transition hover:bg-muted"
         >
           <Icon name="lucide:menu" class="h-5 w-5" />

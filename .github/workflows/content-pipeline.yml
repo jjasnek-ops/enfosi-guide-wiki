@@ -12,8 +12,6 @@
 name: Content freshness audit
 
 on:
-  schedule:
-    - cron: '0 1 * * 1' # Mondays 01:00 UTC = 09:00 Beijing
   workflow_dispatch:
 
 permissions:

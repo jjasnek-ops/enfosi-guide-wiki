@@ -1,0 +1,241 @@
+{
+  "collectedAt": "2026-10-13T11:04:00.643Z",
+  "status": "COMPLETED",
+  "htmlPages": 29,
+  "sitemapUrls": 28,
+  "pages": [
+    {
+      "url": "/404.html",
+      "title": "404 - Page Not Found — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/404/",
+      "headings": 1,
+      "description": "The page you are looking for does not exist.",
+      "noindex": false
+    },
+    {
+      "url": "/about/",
+      "title": "About — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/about/",
+      "headings": 1,
+      "description": "About for Enfosi Guide Wiki.",
+      "noindex": false
+    },
+    {
+      "url": "/contact/",
+      "title": "Contact — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/contact/",
+      "headings": 1,
+      "description": "Contact for Enfosi Guide Wiki.",
+      "noindex": false
+    },
+    {
+      "url": "/copyright/",
+      "title": "Copyright — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/copyright/",
+      "headings": 1,
+      "description": "Copyright for Enfosi Guide Wiki.",
+      "noindex": false
+    },
+    {
+      "url": "/faq/",
+      "title": "Enfosi FAQ",
+      "canonical": "https://enfosiguide.wiki/faq/",
+      "headings": 1,
+      "description": "Answers grounded in the current Roblox description and clearly identified source limits.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/beginner-guide/",
+      "title": "Enfosi Beginner Guide: Your First Statue-Defense Run",
+      "canonical": "https://enfosiguide.wiki/guides/beginner-guide/",
+      "headings": 1,
+      "description": "Start Enfosi on Roblox with the right objective: join a run, inspect the crowd, protect the statue, and learn from each attempt.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/classes/",
+      "title": "Enfosi Classes: Compare the Current Loadout Before Choosing",
+      "canonical": "https://enfosiguide.wiki/guides/classes/",
+      "headings": 1,
+      "description": "Find the Enfosi class names in community references, understand the Sobber roster caveat, and compare current perks without an invented tier list.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/",
+      "title": "Enfosi Guides",
+      "canonical": "https://enfosiguide.wiki/guides/",
+      "headings": 1,
+      "description": "Start a run, inspect disguises, protect the statue, compare classes and prepare for Maniac with clearly sourced Enfosi guides.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/maniac-mode/",
+      "title": "Enfosi Maniac Mode: What Is Confirmed and How to Prepare",
+      "canonical": "https://enfosiguide.wiki/guides/maniac-mode/",
+      "headings": 1,
+      "description": "Maniac is confirmed in Enfosi’s SMILE MORE update. Prepare with current gameplay timestamps and avoid unsupported unlock and wave-count claims.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/official-game/",
+      "title": "Enfosi Official Roblox Link, Creator and PC Recommendation",
+      "canonical": "https://enfosiguide.wiki/guides/official-game/",
+      "headings": 1,
+      "description": "Open the verified Enfosi experience by Tumore, check its place and universe IDs, and distinguish the developer from unofficial guide sites.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/spot-fakes/",
+      "title": "How to Spot Fakes in Enfosi: A Disguise-Inspection Checklist",
+      "canonical": "https://enfosiguide.wiki/guides/spot-fakes/",
+      "headings": 1,
+      "description": "Compare Enfosi arrivals before attacking. Learn community face, color and torso checks, plus the limits of using a single suspicious detail.",
+      "noindex": false
+    },
+    {
+      "url": "/guides/statue-defense/",
+      "title": "Enfosi Statue Defense: Keep the Team on the Objective",
+      "canonical": "https://enfosiguide.wiki/guides/statue-defense/",
+      "headings": 1,
+      "description": "Use a repeatable Enfosi defense routine: watch approach routes, keep a return path, and avoid letting every player chase the same fight.",
+      "noindex": false
+    },
+    {
+      "url": "/",
+      "title": "Enfosi Guide Wiki | Roblox Guides &amp; SMILE MORE",
+      "canonical": "https://enfosiguide.wiki/",
+      "headings": 1,
+      "description": "Evidence-based Enfosi guides for Roblox: learn the statue-defense objective, identify impostors, and understand the SMILE MORE update.",
+      "noindex": false
+    },
+    {
+      "url": "/privacy-policy/",
+      "title": "Privacy Policy — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/privacy-policy/",
+      "headings": 1,
+      "description": "Privacy Policy for Enfosi Guide Wiki.",
+      "noindex": false
+    },
+    {
+      "url": "/recent/",
+      "title": "Recent Updates — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/recent/",
+      "headings": 1,
+      "description": "The latest articles and updates across the wiki, newest first.",
+      "noindex": false
+    },
+    {
+      "url": "/tags/beginner/",
+      "title": "beginner — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/beginner/",
+      "headings": 1,
+      "description": "beginner — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/classes/",
+      "title": "classes — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/classes/",
+      "headings": 1,
+      "description": "classes — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/disguises/",
+      "title": "disguises — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/disguises/",
+      "headings": 1,
+      "description": "disguises — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/equipment/",
+      "title": "equipment — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/equipment/",
+      "headings": 1,
+      "description": "equipment — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/guides/",
+      "title": "guides — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/guides/",
+      "headings": 1,
+      "description": "guides — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/",
+      "title": "All Tags — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/",
+      "headings": 1,
+      "description": "Browse all articles by topic.",
+      "noindex": false
+    },
+    {
+      "url": "/tags/maniac/",
+      "title": "maniac — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/maniac/",
+      "headings": 1,
+      "description": "maniac — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/official-links/",
+      "title": "official-links — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/official-links/",
+      "headings": 1,
+      "description": "official-links — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/statue-defense/",
+      "title": "statue-defense — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/statue-defense/",
+      "headings": 1,
+      "description": "statue-defense — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/teamwork/",
+      "title": "teamwork — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/teamwork/",
+      "headings": 1,
+      "description": "teamwork — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/tags/updates/",
+      "title": "updates — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/tags/updates/",
+      "headings": 1,
+      "description": "updates — All Tags · Unofficial ENFOSI Wiki, Guides &amp; Updates",
+      "noindex": false
+    },
+    {
+      "url": "/terms-of-service/",
+      "title": "Terms of Service — Enfosi Guide Wiki",
+      "canonical": "https://enfosiguide.wiki/terms-of-service/",
+      "headings": 1,
+      "description": "Terms of Service for Enfosi Guide Wiki.",
+      "noindex": false
+    },
+    {
+      "url": "/updates/",
+      "title": "Enfosi Updates",
+      "canonical": "https://enfosiguide.wiki/updates/",
+      "headings": 1,
+      "description": "Verified Enfosi update summaries: official statements, gameplay context and clear distinctions between release and review dates.",
+      "noindex": false
+    },
+    {
+      "url": "/updates/smile-more/",
+      "title": "Enfosi SMILE MORE Update: Confirmed Changes and Version Notes",
+      "canonical": "https://enfosiguide.wiki/updates/smile-more/",
+      "headings": 1,
+      "description": "What the current Enfosi listing confirms about SMILE MORE, how Maniac fits, and why trailer dates and game update timestamps are different.",
+      "noindex": false
+    }
+  ],
+  "errors": []
+}

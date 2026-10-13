@@ -1,0 +1,107 @@
+$ astro build
+19:03:57 [content] Syncing content
+19:03:57 [content] Synced content
+19:03:57 [types] Generated 575ms
+19:03:57 [build] output: "static"
+19:03:57 [build] mode: "static"
+19:03:57 [build] directory: D:\CursorProjects\enfosi-wiki\enfosi-guide-wiki\dist\
+19:03:57 [build] Collecting build info...
+19:03:57 [build] ✓ Completed in 727ms.
+19:03:57 [build] Building static entrypoints...
+19:03:58 [astro-icon] Loaded icons from src/icons, lucide
+19:03:58 [vite] ✓ built in 1.50s
+19:03:58 [vite] ✓ built in 42ms
+19:03:58 [build] Rearranging server assets...
+
+ generating static routes 
+19:03:59   ├─ /404.html (+19ms) 
+19:03:59   ├─ /about/index.html (+8ms) 
+19:03:59   ├─ /contact/index.html (+5ms) 
+19:03:59   ├─ /copyright/index.html (+5ms) 
+19:03:59   ├─ /faq/index.html (+6ms) 
+19:03:59   ├─ /llms.txt (+4ms) 
+19:03:59   ├─ /privacy-policy/index.html (+5ms) 
+19:03:59   ├─ /recent/index.html (+17ms) 
+19:03:59   ├─ /robots.txt (+3ms) 
+19:03:59   ├─ /rss.xml (+62ms) 
+19:03:59   ├─ /tags/beginner/index.html (+7ms) 
+19:03:59   ├─ /tags/statue-defense/index.html (+7ms) 
+19:03:59   ├─ /tags/guides/index.html (+5ms) 
+19:03:59   ├─ /tags/classes/index.html (+3ms) 
+19:03:59   ├─ /tags/equipment/index.html (+6ms) 
+19:03:59   ├─ /tags/maniac/index.html (+4ms) 
+19:03:59   ├─ /tags/teamwork/index.html (+4ms) 
+19:03:59   ├─ /tags/official-links/index.html (+4ms) 
+19:03:59   ├─ /tags/disguises/index.html (+4ms) 
+19:03:59   ├─ /tags/updates/index.html (+4ms) 
+19:03:59   ├─ /tags/index.html (+5ms) 
+19:03:59   ├─ /terms-of-service/index.html (+4ms) 
+19:03:59   ├─ /index.html (+6ms) 
+19:03:59   ├─ /guides/index.html (+6ms) 
+19:03:59   ├─ /updates/index.html (+3ms) 
+19:03:59   ├─ /guides/beginner-guide/index.html (+15ms) 
+19:03:59   ├─ /guides/classes/index.html (+8ms) 
+19:03:59   ├─ /guides/maniac-mode/index.html (+10ms) 
+19:03:59   ├─ /guides/official-game/index.html (+10ms) 
+19:03:59   ├─ /guides/spot-fakes/index.html (+8ms) 
+19:03:59   ├─ /guides/statue-defense/index.html (+9ms) 
+19:03:59   ├─ /updates/smile-more/index.html (+7ms) 
+19:03:59 ✓ Completed in 359ms.
+
+ generating optimized images 
+19:03:59   ▶ /_astro/en-guides-maniac-mode.DBJWGlm-_1fJI3w.webp (reused cache entry) (+2ms) (1/21)
+19:03:59   ▶ /_astro/en-guides-beginner-guide.CzXZeds8_z6gWq.webp (reused cache entry) (+2ms) (2/21)
+19:03:59   ▶ /_astro/en-guides-classes.CHdtS9de_jVfac.webp (reused cache entry) (+2ms) (3/21)
+19:03:59   ▶ /_astro/en-guides-official-game.CHHGYq8R_1S1L4u.webp (reused cache entry) (+2ms) (4/21)
+19:03:59   ▶ /_astro/en-guides-spot-fakes.jhr3j9lA_ZxupA3.webp (reused cache entry) (+2ms) (5/21)
+19:03:59   ▶ /_astro/en-updates-smile-more.2JAaKC_h_gUby0.webp (reused cache entry) (+2ms) (6/21)
+19:03:59   ▶ /_astro/en-guides-statue-defense.Bfst-8sx_Z2bsyDj.webp (reused cache entry) (+3ms) (7/21)
+19:03:59   ▶ /_astro/en-guides-classes.CHdtS9de_ZcsIzI.webp (reused cache entry) (+1ms) (8/21)
+19:03:59   ▶ /_astro/en-guides-maniac-mode.DBJWGlm-_1CLbFe.webp (reused cache entry) (+2ms) (9/21)
+19:03:59   ▶ /_astro/en-guides-beginner-guide.CzXZeds8_ZWcsfe.webp (reused cache entry) (+2ms) (10/21)
+19:03:59   ▶ /_astro/en-guides-official-game.CHHGYq8R_Ze4NOS.webp (reused cache entry) (+2ms) (11/21)
+19:03:59   ▶ /_astro/en-guides-spot-fakes.jhr3j9lA_ZMLM79.webp (reused cache entry) (+2ms) (12/21)
+19:03:59   ▶ /_astro/en-guides-classes.CHdtS9de_2wrSmO.webp (reused cache entry) (+1ms) (13/21)
+19:03:59   ▶ /_astro/en-updates-smile-more.2JAaKC_h_DVEaH.webp (reused cache entry) (+2ms) (14/21)
+19:03:59   ▶ /_astro/en-guides-statue-defense.Bfst-8sx_1mpOWX.webp (reused cache entry) (+2ms) (15/21)
+19:03:59   ▶ /_astro/en-guides-maniac-mode.DBJWGlm-_Z2heNpv.webp (reused cache entry) (+2ms) (16/21)
+19:03:59   ▶ /_astro/en-guides-beginner-guide.CzXZeds8_qLdhM.webp (reused cache entry) (+2ms) (17/21)
+19:03:59   ▶ /_astro/en-guides-official-game.CHHGYq8R_Z3mnpo.webp (reused cache entry) (+2ms) (18/21)
+19:03:59   ▶ /_astro/en-guides-spot-fakes.jhr3j9lA_1OzmOJ.webp (reused cache entry) (+1ms) (19/21)
+19:03:59   ▶ /_astro/en-updates-smile-more.2JAaKC_h_1O7MST.webp (reused cache entry) (+2ms) (20/21)
+19:03:59   ▶ /_astro/en-guides-statue-defense.Bfst-8sx_Z2jMCiW.webp (reused cache entry) (+1ms) (21/21)
+19:03:59 ✓ Completed in 7ms.
+
+19:03:59 [build] ✓ Completed in 1.97s.
+19:03:59 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+19:03:59 [build] 29 page(s) built in 2.77s
+19:03:59 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts && node scripts/postbuild-launch.mjs
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "D:\\CursorProjects\\enfosi-wiki\\enfosi-guide-wiki"
+Source:       "dist"
+Output:       "dist\\pagefind"
+
+[Walking source directory]
+Found 29 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 1 language: en
+
+[Building search indexes]
+Total: 
+  Indexed 1 language
+  Indexed 7 pages
+  Indexed 703 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+Finished in 0.024 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=ecffba502d applied to 29 pages; range-media lowered in 0 files
+[IndexNow] Wrote dist/fb9ac45b2e68aacadef2bb118d72e81243feba0518518d9c87a4e7f5134378ea.txt (source: file)
+Published sitemap.xml from the actual generated sitemap.
